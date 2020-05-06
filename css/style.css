@@ -283,7 +283,7 @@ textarea {
     float:left;
 }
 .post {
-    padding:25px 0 15px;
+    padding:15px 0 15px;
 }
 .post-title {
     margin:0;
@@ -366,8 +366,10 @@ textarea {
     font-size: 1em;
     line-height: 1.7;
     color:#444;
-    padding-top:27px;
+    padding-top:15px;
 }
+
+
 .post-content h2,.post-content h3,.post-content h4,.post-content h5,.post-content h6 {
     color: #ba3925;
 }
@@ -1059,8 +1061,16 @@ table tr th, table tr td {
 }
 
 .post-toc {
-    width: 250px !important;
-    margin-left: -290px !important;
+    width: 200px !important;
+    margin-left: -240px !important;
 	border: 3px solid rgb(56, 159, 224) !important;
+	padding: 5px 5px !important;
     
+}
+.post-toc .post-toc-content {
+    font-size: 12px !important;
+}
+
+.post-toc .post-toc-title {
+    font-size: 16px !important;
 }
