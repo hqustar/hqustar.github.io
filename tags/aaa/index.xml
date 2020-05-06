@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AAA on hqustar的博客</title>
+    <link>http://hqustar.github.io/tags/aaa/</link>
+    <description>Recent content in AAA on hqustar的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 20 Mar 2018 00:21:05 +0000</lastBuildDate>
+    
+	<atom:link href="http://hqustar.github.io/tags/aaa/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>hexo博客添加文章置顶及标签</title>
+      <link>http://hqustar.github.io/post/hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6%E5%8F%8A%E6%A0%87%E7%AD%BE/</link>
+      <pubDate>Tue, 20 Mar 2018 00:21:05 +0000</pubDate>
+      
+      <guid>http://hqustar.github.io/post/hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6%E5%8F%8A%E6%A0%87%E7%AD%BE/</guid>
+      <description>转载自
+博文置顶 目前已经有修改后支持置顶的仓库，可以直接用以下命令安装。
+npm uninstall hexo-generator-index --save npm install hexo-generator-index-pin-top --save 然后在需要置顶的文章的Front-matter中加上top: true即可。比如下面这篇文章：
+--- title: hexo+GitHub博客搭建实战 date: 2017-09-08 12:00:25 categories:[ 博客搭建系列 top: true --- 到目前为止，置顶功能已经可以实现了。所有相关博文到这边就结束了。
+不过置顶的文章显示在最上面之后，如果没有明确的置顶标志，是不是感觉有点怪怪的呢？
+设置置顶标志 打开：/blog/themes/next/layout/_macro 目录下的post.swig文件，定位到&amp;lt;div class=&amp;quot;post-meta&amp;quot;&amp;gt;标签下，插入如下代码：
+{% if post.top %} &amp;lt;i class=&amp;quot;fa fa-thumb-tack&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; &amp;lt;font color=7D26CD&amp;gt;置顶&amp;lt;/font&amp;gt; &amp;lt;span class=&amp;quot;post-meta-divider&amp;quot;&amp;gt;|&amp;lt;/span&amp;gt; {% endif %} </description>
+    </item>
+    
+  </channel>
+</rss>

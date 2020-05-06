@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>公文 on hqustar的博客</title>
+    <link>http://hqustar.github.io/tags/%E5%85%AC%E6%96%87/</link>
+    <description>Recent content in 公文 on hqustar的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 21 Jul 2017 01:03:15 +0000</lastBuildDate>
+    
+	<atom:link href="http://hqustar.github.io/tags/%E5%85%AC%E6%96%87/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>公文格式排版</title>
+      <link>http://hqustar.github.io/post/%E5%85%AC%E6%96%87%E6%A0%BC%E5%BC%8F%E6%8E%92%E7%89%88/</link>
+      <pubDate>Fri, 21 Jul 2017 01:03:15 +0000</pubDate>
+      
+      <guid>http://hqustar.github.io/post/%E5%85%AC%E6%96%87%E6%A0%BC%E5%BC%8F%E6%8E%92%E7%89%88/</guid>
+      <description>&lt;p&gt;公文格式排版的知识，虽然看过书听过课，但距离实际掌握还有很大的差距，所以今晚花了点时间实践了一下。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>路由器 on hqustar的博客</title>
+    <link>http://hqustar.github.io/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/</link>
+    <description>Recent content in 路由器 on hqustar的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 13 Feb 2019 13:25:10 +0000</lastBuildDate>
+    
+	<atom:link href="http://hqustar.github.io/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>怎么设置路由器（关于路由器、交换机和集线器的认识集合）</title>
+      <link>http://hqustar.github.io/post/%E6%80%8E%E4%B9%88%E8%AE%BE%E7%BD%AE%E8%B7%AF%E7%94%B1%E5%99%A8%E5%85%B3%E4%BA%8E%E8%B7%AF%E7%94%B1%E5%99%A8%E4%BA%A4%E6%8D%A2%E6%9C%BA%E5%92%8C%E9%9B%86%E7%BA%BF%E5%99%A8%E7%9A%84%E8%AE%A4%E8%AF%86%E9%9B%86%E5%90%88/</link>
+      <pubDate>Wed, 13 Feb 2019 13:25:10 +0000</pubDate>
+      
+      <guid>http://hqustar.github.io/post/%E6%80%8E%E4%B9%88%E8%AE%BE%E7%BD%AE%E8%B7%AF%E7%94%B1%E5%99%A8%E5%85%B3%E4%BA%8E%E8%B7%AF%E7%94%B1%E5%99%A8%E4%BA%A4%E6%8D%A2%E6%9C%BA%E5%92%8C%E9%9B%86%E7%BA%BF%E5%99%A8%E7%9A%84%E8%AE%A4%E8%AF%86%E9%9B%86%E5%90%88/</guid>
+      <description>一、概念 局域网：（Local Area Network，LAN）是指在某一区域内由多台计算机互联成的计算机组。 广域网（英语：Wide Area Network，缩写为 WAN），又称广域网、外网、公网。是连接不同地区局域网或城域网计算机通信的远程网。路由器：（Router）是连接因特网中各局域网、广域网的设备。在路由器中记录着路由表，它会根据信道的情况自动选择和设定路由，以最佳路径，按前后顺序发送信号。发生在网络层。 交换机：（Switch）是一种用于电（光）信号转发的网络设备。它可以为接入交换机的任意两个网络节点提供独享的电信号通路，把传输的信息送到符合要求的相应路由上。发生在数据链路层。 集线器：（Hub）是指将多条以太网双绞线或光纤集合连接在同一段物理介质下的设备。发生在物理层。 网络的七层协议：OSI（Open System Interconnection）是一个开放性的通信系统互连参考模型。OSI模型有7层结构，每层都可以有几个子层。 OSI的7层从上到下分别是 7 应用层 6 表示层 5 会话层 4 传输层 3 网络层 2 数据链路层 1 物理层 ；其中高层（即7、6、5、4层）定义了应用程序的功能，下面3层（即3、2、1层）主要面向通过网络的端到端的数据流。 二、区别主要体现在功能和层次     路由器 交换机 集线器     工作层次 网络层 数据链路层 物理层   转发依据 IP地址 MAC地址 MAC地址（广播）   功能 连接不同的网络 连接局域网中的电脑 连接局域网中的电脑   宽带影响 共享宽带 独享宽带 共享宽带    三、路由器的设置 （一）路由器的WAN口连接类型 1.(PPPoE拨号)PPPoE拨号上网，在有的路由器上又叫做：ADSL拨号上网、宽带拨号上网。这种宽带类型有一个显著的特点，就是宽带运营商(电信、联通、移动)会提供一个宽带账号、宽带密码给用户;在没用路由器时，电脑上需要用“宽带连接”(类似程序)来拨号，拨号成功后才能上网。如果你符合上诉情况，那么在设置路由器时，WAN口连接类型就应该选择：PPPoE拨号(ADSL拨号、宽带拨号)，然后填写宽带运营商提供的宽带账号、宽带密码，然后就可以上网了。
+2.(动态IP)动态IP上网，有的路由器上又叫做：DHCP上网、自动获取IP上网。动态IP上网宽带类型的特点是：宽带运营商(电信、联通、移动)不会提供宽带账号和密码，在未使用路由器的时候，只需要把宽带网线连接到电脑上，电脑就可以上网了。如果你的情况与上面介绍的相符，那么在设置路由器时，WAN口连接类型就应该选择：动态IP(自动获取IP地址、DHCP) 。</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+	<meta name="generator" content="Hugo 0.69.2" />
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>hqustar的博客 | </title>
+    <meta property="og:title" content="hqustar的博客 | ">
+    <meta property="og:type" content="website">
+    <meta name="Keywords" content="">
+    <meta name="description" content="">
+    <meta property="og:url" content="http://hqustar.github.io/">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href='/css/normalize.css'>
+    <link rel="stylesheet" href='/css/style.css'>
+    <link rel="alternate" type="application/rss+xml+xml" href="http://hqustar.github.io/index.xml" title="hqustar的博客" />
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    
+
+
+    
+    
+</head>
+
+
+<body>
+    <header id="header" class="clearfix">
+    <div class="container">
+        <div class="col-group">
+            <div class="site-name ">
+                
+                    <h1>
+                        <a id="logo" href="http://hqustar.github.io/">
+                            hqustar的博客
+                        </a>
+                    </h1>
+                
+                
+            </div>
+            <div>
+                <nav id="nav-menu" class="clearfix">
+                    <a class="current" href="http://hqustar.github.io/">首页</a>
+                    
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <div id="body">
+        <div class="container">
+            <div class="col-group">
+
+                <div class="col-8" id="main">
+                    
+<div class="res-cons">
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="http://hqustar.github.io/post/creating-a-new-theme/" title="Creating a New Theme">Creating a New Theme</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2014年9月28日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='http://hqustar.github.io/categories/development'>Development</a></span>
+            
+            <span class="meta-category"><a href='http://hqustar.github.io/categories/golang'>golang</a></span>
+            
+            <span class="meta-category"><a href='http://hqustar.github.io/categories/index'>index</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
+We&rsquo;ll start with creating a new site with a very basic template.……
+        </div>
+        <p class="readmore"><a href="http://hqustar.github.io/post/creating-a-new-theme/">阅读全文</a></p>
+    </article>
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="http://hqustar.github.io/post/hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E4%B8%8A%E9%80%9A%E8%BF%87markdown%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C/" title="hexo静态博客上通过markdown搭建相册">hexo静态博客上通过markdown搭建相册</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            1年1月1日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='http://hqustar.github.io/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE'>网站建设</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            一张图（最基本用法 markdown语法） ![Alt text](图片链接 &#34;optional title&#34;) Alt text：图片的Alt标签，用来描述图片的关键词，可以不写。最初的本意是当图片因为某种原因不能被显示时而出现的替代文字，后来又被用于SEO，可以方便搜索引擎根据Alt text里面的关键词搜索到图片。 图片链接：可以是图片的本地地址或者是网址。&ldquo;optional title&rdquo;：鼠标悬置于图片上会出现的标题文字，可以不写。多图横向滚动 设计原理：将图片填充到表格的格子里，当表格超出页面显示的最大宽度，在表格的下方就会出现一个横向滑块。
+不带表头的写法（css:table） &lt;table&gt; &lt;tr&gt; &lt;td&gt;&lt;img src=&#34;图片地址&#34; width=&#34;图片宽度&#34;/&gt;&lt;/td&gt; &lt;td&gt;&lt;img src=&#34;图片地址&#34; width=&#34;图片宽度&#34;/&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; 效果演示：
+带表头的写法（markdown 语法） | 表头1 | 表头2 | 表头3 | 表头4 | 表头5 | | ---- | ---- | ---- | ---- | ---- | | 图片1 | 图片2 | 图片3 | 图片4 | 图片5 |    江滨公园1 江滨公园2 江滨公园3 江滨公园4 江滨公园5             缺点：不能自由控制图片显示的长度和宽度。……
+        </div>
+        <p class="readmore"><a href="http://hqustar.github.io/post/hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E4%B8%8A%E9%80%9A%E8%BF%87markdown%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C/">阅读全文</a></p>
+    </article>
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="http://hqustar.github.io/post/total-commander-%E5%91%BD%E4%BB%A4/" title="Total Commander常用快捷键">Total Commander常用快捷键</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            1年1月1日
+        </date>
+        
+        <div class="post-content">
+            <p>如下操作，既是TC默认，也是多标签软件（比如chrome）较为通用的设定。</p>
+<pre><code>新建tab：ctrl+t；
+关闭标签：ctrl+w；
+关闭所有非活动标签：ctrl+shift+w；
+在同侧的tab间切换：ctrl+tab, ctrl+shift+tab；
+改变tab排列顺序（包括在两个窗口间移动）：鼠标左键拖动。
+</code></pre><p><strong>Total Commander常用快捷键</strong></p>……
+        </div>
+        <p class="readmore"><a href="http://hqustar.github.io/post/total-commander-%E5%91%BD%E4%BB%A4/">阅读全文</a></p>
+    </article>
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="http://hqustar.github.io/post/%E5%A4%9C%E9%87%8C%E9%86%92%E6%9D%A5/" title="夜里醒来">夜里醒来</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            1年1月1日
+        </date>
+        
+        <div class="post-content">
+            <p>在夜里醒来我把自己给吓了一跳，发现风扇再吹，日光灯也都亮着，我是不是又忘记关了灯？这灯是不是又亮了一整夜？我摸着手机点亮屏幕看了下，显示0:10，我紧张的心忽然就落了地，这一天还不算已经都过去了，我就睡了3小时这灯也没亮了很久。可接下来又要如何打发这剩余的时间，瞌睡虫早就在这惊吓中飞到九霄云外，毫无寻找的可能。</p>……
+        </div>
+        <p class="readmore"><a href="http://hqustar.github.io/post/%E5%A4%9C%E9%87%8C%E9%86%92%E6%9D%A5/">阅读全文</a></p>
+    </article>
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="http://hqustar.github.io/post/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E5%9B%A0%E7%BC%BA%E5%B0%91%E5%AD%97%E4%BD%93%E4%BB%A5%E8%87%B4word%E6%98%BE%E7%A4%BA%E6%8E%92%E7%89%88%E6%B7%B7%E4%B9%B1%E7%9A%84%E9%97%AE%E9%A2%98/" title="如何解决因缺少字体以致word显示排版混乱的问题">如何解决因缺少字体以致word显示排版混乱的问题</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            1年1月1日
+        </date>
+        
+        <div class="post-content">
+            <h2 id="原因">原因</h2>
+<p>平常经常遇见word文件在不同电脑所见效果不同，主要的原因是电脑系统的版本差异导致的字体缺失。如windows xp系统仿宋字体的方案是<strong>仿宋GB2312</strong>，而windows 7的是<strong>仿宋</strong>字体。</p>……
+        </div>
+        <p class="readmore"><a href="http://hqustar.github.io/post/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E5%9B%A0%E7%BC%BA%E5%B0%91%E5%AD%97%E4%BD%93%E4%BB%A5%E8%87%B4word%E6%98%BE%E7%A4%BA%E6%8E%92%E7%89%88%E6%B7%B7%E4%B9%B1%E7%9A%84%E9%97%AE%E9%A2%98/">阅读全文</a></p>
+    </article>
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="http://hqustar.github.io/post/%E6%8E%A2%E8%AE%BF%E5%8F%B6%E6%B0%8F%E5%AE%B6%E5%BA%99%E6%9C%89%E6%84%9F/" title="探访叶氏家庙有感">探访叶氏家庙有感</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            1年1月1日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='http://hqustar.github.io/categories/%E9%9A%8F%E7%AC%94'>随笔</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            <p>这是我第二次参加读书会活动，因平时工作繁忙，加之周末偶有回家，就错过了好几次活动。</p>……
+        </div>
+        <p class="readmore"><a href="http://hqustar.github.io/post/%E6%8E%A2%E8%AE%BF%E5%8F%B6%E6%B0%8F%E5%AE%B6%E5%BA%99%E6%9C%89%E6%84%9F/">阅读全文</a></p>
+    </article>
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="http://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E5%B0%81%E4%BF%A1%E4%B8%80%E9%A2%97%E7%BA%BD%E6%89%A3/" title="给先生的第二十一封信（一颗纽扣）">给先生的第二十一封信（一颗纽扣）</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            1年1月1日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='http://hqustar.github.io/categories/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E4%BF%A1'>给先生的信</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            <p>先生你好啊！当我提笔时已经是夜里10：30，想着就用30分钟的时间给你写信，纸段情长，想到什么就写些什么出来，思想每念及到处无所拘束，反而多了几分的潇洒快意，少了一些天天想你的惆怅。</p>……
+        </div>
+        <p class="readmore"><a href="http://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E5%B0%81%E4%BF%A1%E4%B8%80%E9%A2%97%E7%BA%BD%E6%89%A3/">阅读全文</a></p>
+    </article>
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="http://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%B0%81%E4%BF%A1%E4%BD%A0%E7%9A%84%E6%A0%B7%E5%AD%90/" title="给先生的第二十封信（你的样子）">给先生的第二十封信（你的样子）</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            1年1月1日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='http://hqustar.github.io/categories/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E4%BF%A1'>给先生的信</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            先生你好啊！这第二十封信我不想谈及其他，只想谈谈你在我心中会是什么样子。要是我说的让你生气，那都是我的不好，你尽管不要理我。
+也不知道是谁打翻了上帝的沙漏，往日丝丝如缕，不急不缓的时光突然起了波澜。今年尤其是难过的一年，也是婚姻大事被提及次数最多的一年。当然，很可能接下来的2019年又会是一浪高过一浪。这也不全然是糟心的，至少谈得多，思考的次数和深度也就自然增多和加深，是成长过程中很重要的一部分，古语说：“男大当婚，女大当嫁”，亦同此理。先生，哪一天你真的来我家，我妈妈肯定会很喜欢你。你看她老人家，在没有你一星半点儿消息的时候就如此的急切盼望着你的到来，以至于我每次回家，她都三句不离你。每当看到母亲躁急盼望的神情，作为儿子的我内心并不好受，没能让母亲放心如愿心有不安。窗外的云和月依旧恋恋不舍我这一方窗户，而我却念念着你的归期，假如姻缘天定。
+对待婚姻甚至恋爱我们一家人相对比较传统与保守，但又不固步自封，有其进步开明的一面，也有所坚守。爸爸妈妈都是本分的实在人，从小妈妈管我比较多，所以我很多事情都会和妈妈沟通并拿出自己的主意，很开心母亲每次都很支持我的想法。对我的家人我是没有秘密的，因为行而有度，理义为先，用现在的话说就是做事知轻重有分寸，所以我希望先生也是这个样子。
+胡适先生是我最崇拜的人之一，这位新文化的缔造者却是旧文化的楷模。在鲁迅、梁启超等纷纷以提倡新文化为借口打破旧式婚姻的时候，胡适这个海龟博士却遵从了旧时的婚约同目不识丁的女子结成连理。对于国家的文明，胡适说只消考察三件事：第一看他们怎样对待孩子；第二看他们如何对待女人；第三看他们如何利用闲暇时间。我觉得用这三点来评价一个人的文明程度也完全适合，对待孩子和女人的问题经过这么多年思想建设相信已经成了普遍的共识，在此不表。我想谈谈这第三点如何利用闲暇时间。
+学生时代有同学有老师，不住校的时候可以天天回家和爸妈在一起，到了上中学，上大学，住校了和舍友在一起，一个人独处的时候并不多，那时候也不把孤独当做一回事。大学那一会儿一直想做一个很牛的工程师，几度想自己写操作系统，写编译器，年轻的时候有的是敢做梦的勇气，用现在的话说就是：”要么在自学，要么在去图书馆借书自学的路上“。到现在我已经毕业4年3个月21天，因为家在老家红星，所以我就不得以要自己租房子住，坦诚的说，也会很无聊，也会经常焦虑。但是这些都没把我给困住，反而我看书看得更勤快，偶尔也练练字，练练琴，做做家务，傍晚时候坚持去公园走上2-3公里已经成了我3年来的习惯。经历过风雨更知道有把雨伞的可贵，漫漫的人生路上如果能有1-2个爱好作为消遣，养成健康的生活习惯，这样的人生会更有趣一些，自律从某种程度上是自我的认同，认同了自己人生也就更加的自由，灵魂的自由！
+要写的东西还有很多很多，索性不写了，你要是出现了，我再好好说给你听。
+祝君 安好！秋天来了，早晚多添一件衣服。
+慕年 写于2018年10月21日 11时 晚 。侨星大厦宿舍。……
+        </div>
+        <p class="readmore"><a href="http://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%B0%81%E4%BF%A1%E4%BD%A0%E7%9A%84%E6%A0%B7%E5%AD%90/">阅读全文</a></p>
+    </article>
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="http://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E5%8D%81%E4%B8%83%E5%B0%81%E4%BF%A1/" title="给先生的第十七封信">给先生的第十七封信</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            1年1月1日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='http://hqustar.github.io/categories/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E4%BF%A1'>给先生的信</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            先生你好啊！有段时间没给你写信了，也不知道你过得怎么样了呢？我最近感觉不是太好，可能是夏天太热了吧，所以会比较晚睡，多出来的大把时间都用来想你了。你要是早点出现就好了，可以把所有不安和惶恐都告诉你，你的一个眼神和微笑都会是我坚定下去的勇气和动力。我也不用像现在这样想着想着却无人可以说，就越想越糟糕了，唉~这种感觉不知道你会不会也有，你是否也期待着我的出现呢？想到这里，我就感觉自己好坏，我只能在心里默默祈求上天让我们早点遇见，这样你会好受一些，我也好受一些。
+有些时候真的令人左右为难。就比如相亲这件事，你要不托朋友帮忙介绍对象，别人以为你已经有了呢。如果你经常拜托朋友帮忙介绍，别人以为你很急。如果你只是说说几次，别人觉得你可能不认真。所以我每次都大方承认自己很着急，因为我很认真，认真地想和你相遇。
+在说相亲这件事吧，其实也很难。两个人越是有棱角就越是难成一对，你说大家都等了近30年了，也就无所谓在多等几年了，年轻的时候还可能将就，年纪大了些反而觉得单身其实也很好。当然了，这种感觉并不排除是一种错觉，看见别人成双成对，还是会很羡慕。毕竟越挑剔的人可能也是最理想主义的人，把爱情看得高过一切，她有多美好，也就有多苦楚了。
+我向来不敢“诋毁”那些可爱的人们，一个人清楚自己想要什么也总比浑浑噩噩度过一生来的强，大家都在等待那个对的人的出现，希望大家都可以如愿，当然这也包括我，还有的我先生。
+今晚好梦 我的先生！
+慕年 写于2018年07月31日 23:22晚 侨星宿舍……
+        </div>
+        <p class="readmore"><a href="http://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E5%8D%81%E4%B8%83%E5%B0%81%E4%BF%A1/">阅读全文</a></p>
+    </article>
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="http://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E5%8D%81%E4%B9%9D%E5%B0%81%E4%BF%A1%E4%B8%8D%E8%83%9C%E5%87%89%E9%A3%8E%E7%9A%84%E6%80%9D%E5%BF%B5/" title="给先生的第十九封信（不胜凉风的思念）">给先生的第十九封信（不胜凉风的思念）</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            1年1月1日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='http://hqustar.github.io/categories/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E4%BF%A1'>给先生的信</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            想你想得多了，也会不开心的。等得久了会累，经常期待也经常面对着失望，所以在你未曾出现的日子里我习惯于听歌、锻炼、写字、看书、游戏来拉扯我的思绪，不至于太过想你。然而，这一切好像都不具“药效”，当一切停下来之后，深夜月明之时我又不免陷入了更深的思念以至于绝望当中，便纵有千种风情，更与何人说？
+我在6月份的时候看了《苏珊·福沃德心理学经典作品》一书，里面讲心里医生会让咨询者通过用纸笔的方式写下心中的想法，来反观自己，认识自己。现在我明白了，为什么我会想给你写信，为什么每次写完信我会陷入另一种极致的思念之中，而后会更加的坦然。不了解自己就不能很好的直面现实生活的苦恼，而我反而是更了解自己却陷入了一种思念不得的苦恼当中，夜夜思君不见君，但见长江东流水。这当中的滋味你是否也能体会到？所庆幸的是我还怀有一颗纯真的爱你的心，珍藏着怦然心动的感觉，不至于见异思迁，放浪形骸，成为一个麻木的人。
+先生，你知道吗？如果说姻缘是命中注定的，那么从我来到这个世上开始算，为了与你相遇我已经等了26年5个月零1天。时间虽然不长，但也绝对不算短，我身边的好兄弟有恋爱长跑6年的，有张罗着要结婚的，也有婚后忙着生孩子的。时间如流水，而流水却归于平静，一转眼，我就掉队了。我是多么希望能早一点遇见你，假如姻缘是命中注定。
+就写到这里吧！明天我得回家一趟，勿念。祝君安好，晚安。
+慕年作于2018年8月11日0:17凌晨 侨星宿舍……
+        </div>
+        <p class="readmore"><a href="http://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E5%8D%81%E4%B9%9D%E5%B0%81%E4%BF%A1%E4%B8%8D%E8%83%9C%E5%87%89%E9%A3%8E%E7%9A%84%E6%80%9D%E5%BF%B5/">阅读全文</a></p>
+    </article>
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="http://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E5%8D%81%E5%85%AB%E5%B0%81%E4%BF%A1%E5%AE%A0%E7%89%A9%E4%B8%8E%E7%8C%AB/" title="给先生的第十八封信（宠物与猫）">给先生的第十八封信（宠物与猫）</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            1年1月1日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='http://hqustar.github.io/categories/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E4%BF%A1'>给先生的信</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            你好啊！先生。我这两天真是中了猫咪的毒，超级喜欢上这一只猫了。哈哈，也许我真的是老了，竟然需要耍猫为乐趣。然而我现在的境况又不适合养这个小宝贝，哪一天碰上我下乡或者出差了，谁会给它挠痒痒，给它喂吃的呢？所以我只是看看不买，看着图片解解馋，想象着我也养了一只橘猫。不要问为什么，我就是戏多啊，它嫌弃的眼神说我又调皮了呢！我的先生，你有没有养过小动物呢？在我十几岁的时候养过鱼和鸟，我差点因为这两样东西成了职业驯养师^_^ 农村的孩子学习压力小，在小学阶段爸妈也都不管学习，所以普遍都比较野。不用上课的时候到河里抓虾摸鱼是常有的事情，也经常大中午满山野里寻鸟窝。一群小伙伴除了我个个都是好手，即便我不会游泳、不会上树，他们也愿意带我一起玩，我只出个人，战利品可都有我的一份，他们可都等着抄我作业呢O(∩_∩)O哈哈~。
+能在沟沟里生长的鱼生命力都比较强，普遍都很好养。用装过糖果的空的透明塑料罐来做鱼缸最合适不过，在罐子里铺上玻璃弹珠和收集的小石头作为装饰，加水放鱼一气呵成，也不用想着给鱼喂食，也都能活个几年。如果鱼儿太多就容易打架，气死的、被打伤打残的情况也经常发生。遇到这种情况，得及时给他们分家。若有死鱼，要立刻把尸体捞出来，更换清水，不然水很容易被污染。
+说起鸟儿，我只养过一只，在他还不会飞翔的时候就英年早逝。我妈妈一直很反对我养鸟，小时候不太懂，对小动物都很好奇也都想养，长大了以后才知道，鸟终究是难以养活的。在他羽翼未丰，那时身上毛都没长多少，光着红屁股就来到了我家。我又不会抓虫子，也是第一次为鸟之父母，心里是又慌又着急啊，看着他伸长脖子张大的嘴，一口冷稀饭就趁机往里送，没想到他一口咽下，吃得还挺欢。我到学校上学，我妈妈就负责照顾他，时间一久，他竟然成了我家第四号人物。可惜那时候环境不好，蚊子虫子很多，眼睛像是被什么东西给哲到，肿了好几天，最后还是没留下来。
+从有记忆开始我家就住在红星中学的教师宿舍里面，学校与山地果园只有一墙之隔，也不知到什么时候开始，学校里就来了很多没人认领的野猫，依靠食堂的剩菜剩饭过活。有一次一只圆脸，灰白色的猫来到我家门口，母亲给它小鱼干吃，谁知道这一吃就经常来我家串门。挺让人省心的一只猫猫，也不用特意给它准备食物，它经常夜里出去外面抓老鼠，饱餐一顿之后在从屋檐下的空挡跳到橱柜，在落到地上。偶尔，也会撒娇讨人喜欢，比如在地上打滚，蹭裤腿和你表示亲密或者直接爬在你脚旁边睡觉。搬了新家以后，它还是老样子夜里要出去寻找猎物，可是新家没有什么洞洞让他自由出入，夜里3点左右觅食回来就在门前喵喵喵的叫唤，母亲就这样天天半夜起来给它开门。就这样过了半年，猫是越来越廋，母亲也觉得天天给它开门不是办法，还是把它送回学校了。3年后，听母亲说回学校遇见了这只猫，它一直追着到校门口送我母亲离开。
+现在学校重新建设，一切已经不是以前的样子，也不知道猫猫过得好不好。
+我这里一切安好，你呢？
+慕年作于2018年8月2日21:50晚 侨星宿舍……
+        </div>
+        <p class="readmore"><a href="http://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E5%8D%81%E5%85%AB%E5%B0%81%E4%BF%A1%E5%AE%A0%E7%89%A9%E4%B8%8E%E7%8C%AB/">阅读全文</a></p>
+    </article>
+    
+    
+
+
+
+<ol class="page-navigator">
+    
+    <li class="prev">
+        <a href="http://hqustar.github.io/page/2/">上一页</a>
+    </li>
+    
+
+    
+    <li >
+        <a href="http://hqustar.github.io/">1</a>
+    </li>
+    
+    <li >
+        <a href="http://hqustar.github.io/page/2/">2</a>
+    </li>
+    
+    <li  class="current">
+        <a href="http://hqustar.github.io/page/3/">3</a>
+    </li>
+    
+    <li >
+        <a href="http://hqustar.github.io/page/4/">4</a>
+    </li>
+    
+
+    
+    <li class="next">
+        <a href="http://hqustar.github.io/page/4/">下一页</a>
+    </li>
+    
+</ol>
+
+
+
+</div>
+
+                </div>
+
+                <div id="secondary">
+    <section class="widget">
+        <form id="search" action='//www.google.com/search' method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
+      
+      <input type="text" name="q" maxlength="20" placeholder="Search">
+      <input type="hidden" name="sitesearch" value="http://hqustar.github.io/">
+      <button type="submit" class="submit icon-search"></button>
+</form>
+    </section>
+    
+    <section class="widget">
+        <h3 class="widget-title">最近文章</h3>
+<ul class="widget-list">
+    
+    <li>
+        <a href="http://hqustar.github.io/post/%E6%89%93%E9%80%A0%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E6%97%B6%E5%B0%9A%E6%84%9F-%E7%94%B7%E5%A3%AB%E6%AD%A3%E7%A1%AE%E7%A9%BF%E6%90%AD/" title="打造属于自己的时尚感 男士正确穿搭">打造属于自己的时尚感 男士正确穿搭</a>
+    </li>
+    
+    <li>
+        <a href="http://hqustar.github.io/post/%E5%B0%86%E5%8D%9A%E5%AE%A2%E4%BB%8Ehexo%E8%BF%81%E7%A7%BB%E5%88%B0hugo/" title="将博客从hexo迁移到hugo">将博客从hexo迁移到hugo</a>
+    </li>
+    
+    <li>
+        <a href="http://hqustar.github.io/post/%E6%91%84%E5%BD%B1%E6%9B%9D%E5%85%89%E5%8E%9F%E7%90%86%E5%92%8C%E6%8E%A7%E5%88%B6/" title="摄影曝光原理和控制">摄影曝光原理和控制</a>
+    </li>
+    
+    <li>
+        <a href="http://hqustar.github.io/post/excel%E6%B1%87%E6%80%BB%E6%8F%90%E5%8F%96%E5%A4%9A%E6%96%87%E4%BB%B6%E6%95%B0%E6%8D%AE/" title="Excel汇总（提取）多文件数据">Excel汇总（提取）多文件数据</a>
+    </li>
+    
+    <li>
+        <a href="http://hqustar.github.io/post/%E6%80%8E%E4%B9%88%E8%AE%BE%E7%BD%AE%E8%B7%AF%E7%94%B1%E5%99%A8%E5%85%B3%E4%BA%8E%E8%B7%AF%E7%94%B1%E5%99%A8%E4%BA%A4%E6%8D%A2%E6%9C%BA%E5%92%8C%E9%9B%86%E7%BA%BF%E5%99%A8%E7%9A%84%E8%AE%A4%E8%AF%86%E9%9B%86%E5%90%88/" title="怎么设置路由器（关于路由器、交换机和集线器的认识集合）">怎么设置路由器（关于路由器、交换机和集线器的认识集合）</a>
+    </li>
+    
+    <li>
+        <a href="http://hqustar.github.io/post/excel%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E7%A4%BA%E4%BE%8B/" title="Excel常用函数示例">Excel常用函数示例</a>
+    </li>
+    
+    <li>
+        <a href="http://hqustar.github.io/post/%E4%B8%8D%E8%A6%81%E9%97%AE%E6%88%91%E6%98%A5%E9%A3%8E%E6%9C%89%E5%A4%9A%E9%95%BF/" title="不要问我春风有多长">不要问我春风有多长</a>
+    </li>
+    
+    <li>
+        <a href="http://hqustar.github.io/post/%E6%91%84%E5%BD%B1%E5%85%A5%E9%97%A8%E5%BF%85%E5%A4%87%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" title="摄影入门必备的基础知识">摄影入门必备的基础知识</a>
+    </li>
+    
+    <li>
+        <a href="http://hqustar.github.io/post/%E5%A4%9C%E9%87%8C9%E7%82%B9%E4%BB%A5%E5%90%8E%E7%9A%84%E8%AF%8F%E5%AE%89%E5%B0%8F%E5%B7%B7/" title="夜里9点以后的诏安小巷">夜里9点以后的诏安小巷</a>
+    </li>
+    
+    <li>
+        <a href="http://hqustar.github.io/post/hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6%E5%8F%8A%E6%A0%87%E7%AD%BE/" title="hexo博客添加文章置顶及标签">hexo博客添加文章置顶及标签</a>
+    </li>
+    
+</ul>
+    </section>
+
+    
+
+    <section class="widget">
+        <h3 class="widget-title">分类</h3>
+<ul class="widget-list">
+    
+    <li><a href="http://hqustar.github.io/categories/development/">Development (1)</a></li>
+    
+    <li><a href="http://hqustar.github.io/categories/excel%E6%95%99%E5%AD%A6/">excel教学 (1)</a></li>
+    
+    <li><a href="http://hqustar.github.io/categories/golang/">golang (1)</a></li>
+    
+    <li><a href="http://hqustar.github.io/categories/index/">index (1)</a></li>
+    
+    <li><a href="http://hqustar.github.io/categories/%E6%95%A3%E6%96%87/">散文 (1)</a></li>
+    
+    <li><a href="http://hqustar.github.io/categories/%E6%9C%AC%E7%AB%99%E5%BB%BA%E8%AE%BE/">本站建设 (3)</a></li>
+    
+    <li><a href="http://hqustar.github.io/categories/%E7%94%9F%E6%B4%BB%E7%BB%8F%E9%AA%8C/">生活经验 (1)</a></li>
+    
+    <li><a href="http://hqustar.github.io/categories/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E4%BF%A1/">给先生的信 (5)</a></li>
+    
+    <li><a href="http://hqustar.github.io/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/">网站建设 (1)</a></li>
+    
+    <li><a href="http://hqustar.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/">软件工具 (1)</a></li>
+    
+    <li><a href="http://hqustar.github.io/categories/%E9%9A%8F%E7%AC%94/">随笔 (2)</a></li>
+    
+</ul>
+    </section>
+
+    <section class="widget">
+        <h3 class="widget-title">标签</h3>
+<div class="tagcloud">
+    
+    <a href="http://hqustar.github.io/tags/aaa/">AAA</a>
+    
+    <a href="http://hqustar.github.io/tags/development/">development</a>
+    
+    <a href="http://hqustar.github.io/tags/excel/">excel</a>
+    
+    <a href="http://hqustar.github.io/tags/go/">go</a>
+    
+    <a href="http://hqustar.github.io/tags/golang/">golang</a>
+    
+    <a href="http://hqustar.github.io/tags/hexo/">hexo</a>
+    
+    <a href="http://hqustar.github.io/tags/hugo/">hugo</a>
+    
+    <a href="http://hqustar.github.io/tags/linux/">linux</a>
+    
+    <a href="http://hqustar.github.io/tags/templates/">templates</a>
+    
+    <a href="http://hqustar.github.io/tags/themes/">themes</a>
+    
+    <a href="http://hqustar.github.io/tags/%E4%B8%BB%E9%A2%98%E6%A0%B7%E5%BC%8F/">主题;样式</a>
+    
+    <a href="http://hqustar.github.io/tags/%E5%85%AC%E6%96%87/">公文</a>
+    
+    <a href="http://hqustar.github.io/tags/%E6%91%84%E5%BD%B1/">摄影</a>
+    
+    <a href="http://hqustar.github.io/tags/%E6%95%A3%E6%96%87/">散文</a>
+    
+    <a href="http://hqustar.github.io/tags/%E6%97%A5%E8%AE%B0%E6%95%85%E4%BA%8B/">日记,故事</a>
+    
+    <a href="http://hqustar.github.io/tags/%E6%9B%9D%E5%85%89/">曝光</a>
+    
+    <a href="http://hqustar.github.io/tags/%E7%A9%BF%E6%90%AD/">穿搭</a>
+    
+    <a href="http://hqustar.github.io/tags/%E8%AF%97/">诗</a>
+    
+    <a href="http://hqustar.github.io/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/">路由器</a>
+    
+    <a href="http://hqustar.github.io/tags/%E8%BD%AF%E4%BB%B6/">软件</a>
+    
+    <a href="http://hqustar.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/">软件工具</a>
+    
+    <a href="http://hqustar.github.io/tags/%E9%9A%8F%E7%AC%94/">随笔</a>
+    
+</div>
+    </section>
+
+    
+
+    <section class="widget">
+        <h3 class="widget-title">其它</h3>
+        <ul class="widget-list">
+            <li><a href="http://hqustar.github.io/index.xml">文章 RSS</a></li>
+        </ul>
+    </section>
+</div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+    <div class="container">
+        &copy; 2020 <a href="http://hqustar.github.io/">hqustar的博客 By </a>.
+        Powered by <a rel="nofollow noreferer noopener" href="https://gohugo.io" target="_blank">Hugo</a>.
+        <a href="https://www.flysnow.org/" target="_blank">Theme</a> based on <a href="https://github.com/flysnow-org/maupassant-hugo" target="_blank">maupassant</a>.
+        
+    </div>
+</footer>
+
+
+
+<a id="rocket" href="#top"></a>
+<script type="text/javascript" src='/js/totop.js?v=0.0.0' async=""></script>
+
+
+
+
+
+
+</body>
+
+</html>

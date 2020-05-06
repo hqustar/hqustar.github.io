@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>主题;样式 on hqustar的博客</title>
+    <link>http://hqustar.github.io/tags/%E4%B8%BB%E9%A2%98%E6%A0%B7%E5%BC%8F/</link>
+    <description>Recent content in 主题;样式 on hqustar的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 14 Nov 2017 21:11:19 +0000</lastBuildDate>
+    
+	<atom:link href="http://hqustar.github.io/tags/%E4%B8%BB%E9%A2%98%E6%A0%B7%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>hexo主题样式文件修改无效果</title>
+      <link>http://hqustar.github.io/post/hexo%E4%B8%BB%E9%A2%98%E6%A0%B7%E5%BC%8F%E6%96%87%E4%BB%B6%E4%BF%AE%E6%94%B9%E6%97%A0%E6%95%88%E6%9E%9C/</link>
+      <pubDate>Tue, 14 Nov 2017 21:11:19 +0000</pubDate>
+      
+      <guid>http://hqustar.github.io/post/hexo%E4%B8%BB%E9%A2%98%E6%A0%B7%E5%BC%8F%E6%96%87%E4%BB%B6%E4%BF%AE%E6%94%B9%E6%97%A0%E6%95%88%E6%9E%9C/</guid>
+      <description>hexo换了个themes 部署上去显示一切正常。想给header添加一个背景色，在浏览器测试成功。
+然后修改themes下的样式文件 header.styl 增加一行代码
+hexo clean hexo d -g 发现网页header 没有变化，查看网页源码 header 样式中没有
+background #000
+ 认识stylus 为什么是styl后缀文件，这个和传统的css样式文件有什么区别？ stylus介绍 官方Stylus API stylus中文版参考文档之综述
+查看生成在public文件夹下的静态网页 .header { width: 100%; height: 110px; display: flex; align-items: center; flex-direction: row; flex-wrap: nowrap; } background #000 .table { display: table; height: 100%; width: 100%; } background #000 .table .connect { display: table-cell; vertical-align: middle; } background #000 .table .connect .connect-inner { box-sizing: border-box; padding-top: 8px; display: flex; flex-direction: column; } 发现background #000 没有归到header 块里面，而是凸出来了。难不成是代码缩进出现问题？！！</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>excel on hqustar的博客</title>
+    <link>http://hqustar.github.io/tags/excel/</link>
+    <description>Recent content in excel on hqustar的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 09 Apr 2019 21:29:23 +0000</lastBuildDate>
+    
+	<atom:link href="http://hqustar.github.io/tags/excel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Excel汇总（提取）多文件数据</title>
+      <link>http://hqustar.github.io/post/excel%E6%B1%87%E6%80%BB%E6%8F%90%E5%8F%96%E5%A4%9A%E6%96%87%E4%BB%B6%E6%95%B0%E6%8D%AE/</link>
+      <pubDate>Tue, 09 Apr 2019 21:29:23 +0000</pubDate>
+      
+      <guid>http://hqustar.github.io/post/excel%E6%B1%87%E6%80%BB%E6%8F%90%E5%8F%96%E5%A4%9A%E6%96%87%E4%BB%B6%E6%95%B0%E6%8D%AE/</guid>
+      <description>1、 类似场景描述
+从记录有个人信息的excel文档中提取出姓名和电话，制作一份通讯录。
+个人信息文档都是统一格式目标制作成
+2、 第一步：获取所有文档名称
+【方法一】在excel引用外部命令files()获取文件列表。
+在excel【公式】选项卡中选择[定义名称]，在弹窗自定义事件名称“文件名称列表”，在引用位置中输入=files(&amp;ldquo;D:\临时文档*.&amp;quot;)，因为文档放在路径D;\临时文档\下，.*是通配符，此处照抄便是。
+接着在A2单元格输入=INDEX(文件名称列表,ROW(A1))，然后鼠标往下拖，这就获取全部文件名称了。
+当出现#REF！表示已经超出文件了，我们再把#REF！删除。
+【方法二】利用windows控制台命令获取文件名称。
+按下快捷键win+R，输入cmd回车，输入D:回车，进入D盘。（同理输入C:回车，进入C盘）
+输入cd 临时文档，进入到目标文件夹。输入dir /B 获取文件名。
+将结果写入到1.txt文件中，dir /B &amp;gt;1.txt。打开1.txt将内容复制到excel里面，我们就得到了文件名称了。
+3、 获取excel文件里面的数据
+因为个人信息的excel内容格式统一，我们就可以通过文件名称组建路径，获取对应单元格内的数据。
+观察图中圈划部分，[小东.xlsx]表示个人信息文件，Sheet1是第一张数据表，$E$2是电话号码所在的单元格。我们需要让[小东.xlsx]能够自动变化。在小丽这行变成=[小丽.xlsx]Sheet1!$E$2。
+让我们在B2中输入，=&amp;rdquo;[&amp;quot;&amp;amp;A2&amp;amp;&amp;quot;]Sheet1!$E$2&amp;rdquo;，回车后往下拉动单元格。
+然后我们将这部分选中，复制然后选择性黏贴成数值。在利用替换将字符重新变成函数。</description>
+    </item>
+    
+    <item>
+      <title>Excel常用函数示例</title>
+      <link>http://hqustar.github.io/post/excel%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E7%A4%BA%E4%BE%8B/</link>
+      <pubDate>Tue, 12 Feb 2019 22:20:12 +0000</pubDate>
+      
+      <guid>http://hqustar.github.io/post/excel%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E7%A4%BA%E4%BE%8B/</guid>
+      <description>一、原文本数据规范化   小写字母变成大写（upper函数） Upper（“1234567890abc”） 结果是 1234567890ABC 大写变成小写 函数 lower（）  数字变成文本（TEXT（）） TEXT（123，0） 结果是 “123” 0是标志位，不用管他
+  文本变数字只需将其进行数量加减，如&amp;quot;23&amp;quot;+0
+  组织机构代码标准化处理 12345678X 含有字母的excel默认当作文本处理，遇见123456789 纯数字的excel默认当作数字处理，更特殊的如001234567 excel会当作数字并只显示 1234567 那么如何处理各种样式的组织机构代码呢？ 第一步：新建一列，将所有的将组织机构代码内容全部变成文本 text（组织机构代码，0）。 第二部：因为组织机构代码是9位，所以要对不够9位的在它的开头补“0”；使用lEN（文本）函数得到文本的长度。如果长度为7，要补“00”；如果长度为8，要补“0”。 示例：   二、常用函数  查找函数（find函数） 判断“aaa”是否在“123aaabbb”里面 find（“aaa”，“123aaabbb”，1）找到返回真TRUE； Find（“aaa”，“123aabc”，1）找不到返回假FALSE。 获取字符长度（LEN函数） LEN（“1234asd”）返回 数字7 Len（“123abc中文”） 返回数字8 获取字节长度（LENB函数） 中文汉字在计算机里是占两个字节（英文byte也叫比特），如“中”，一个汉字是一个字符，两个字节。 Lenb（“123abc中文”）返回数字10 Lenb（“123abc”）返回数字6 文本截取（LEFT函数，RIGHT函数，MID函数） LENFT（“1234abc”，4） 表示截取文本的前4个字符，得到 “1234” RIGHT（“1234abc”，3） 表示截取文本的后3个字符，得到“abc” MID（“123abc”，2，4）表示从文本的第2个字符开始，截取4位，得到“23ab” 错误过滤函数（IFERROR函数） 假如函数f执行之后结果出现错误，比如没有匹配到，看到的是一个形如 #N/A 的内容。 IFERROR（f，“”）如果f函数返回时错误，则显示为空 IFERROR（f，“AA”）如果f函数返回错误，则显示为AA  注：如果f函数执行成功，则显示的是f函数的结果。 6.	文本拼接（“&amp;amp;”） “123”&amp;amp;“abc” 结果是“123abc”
+跨表查找与对比(vlookup函数) 详见以下链接： https://hqustar.</description>
+    </item>
+    
+    <item>
+      <title>excel基础教程</title>
+      <link>http://hqustar.github.io/post/excel%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Thu, 15 Mar 2018 02:06:48 +0000</pubDate>
+      
+      <guid>http://hqustar.github.io/post/excel%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/</guid>
+      <description>把excel的常用操作和技巧记录下来，并在其后附上视频演示方便学习。所有的步骤都是我都亲自测试过，使用的excel版本是2016。
+Excel 快捷方式 换行；alt+回车 再次执行上一次操作（类似格式刷）； F4 设置文本格式； ‘+内容
+视频
+简化excel数据录入过程 按回车后不跳转单元格； 选中单元格 alt+单击 批量添加内容；选中目标 设置单元格格式 只定义 类型输入 “前缀”@“后缀” 从上往下连续输入内容； alt+↓
+视频
+实现excel单元格中的下拉选项 选中目标 菜单栏中选择数据验证 在设置中选择“序列” 在来源中输入以逗号分割的序列或者在数据表中选中数据来源。
+视频
+数据输入限定 数据有效性 设置有效性条件； 选中单元格，在数据选项卡选择数据验证 定位有效性条件； 在‘开始’选项卡选择‘查找和选择’，‘定位条件’ ‘数据验证’ 复制有效性条件； 复制设定有效性的单元格 黏贴到其他单元格。或者选择性黏贴 选择‘验证’ 清除有效性条件；在开始选项卡选择‘清除’ ‘全部清除’ 视频
+标示Excel表格中的无效数据 数据有效性条件可以阻止无效数据被输入，但不能阻止错误数据被复制和粘贴。换句话说，我们可以将错误的数据黏贴到限定条件的单元格里。 标示无效数据；选中区域，在‘数据’选项卡中选择‘数据验证’ ‘圈释无效数据’ 视频
+Excel限定输入本月日期 在数据选项卡中择数据验证，在设置中选择‘日期’ ‘介于’ 最小值填入
+=DATE(YEAR(TODAY()),MONTH(TODAY()),1) 最大值填入
+=DATE(YEAR(TODAY()),MONTH(TODAY())+1,0) 视频</description>
+    </item>
+    
+    <item>
+      <title>vlookup函数的使用</title>
+      <link>http://hqustar.github.io/post/vlookup%E5%87%BD%E6%95%B0%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+      <pubDate>Mon, 11 Dec 2017 13:14:06 +0000</pubDate>
+      
+      <guid>http://hqustar.github.io/post/vlookup%E5%87%BD%E6%95%B0%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+      <description>vlookup是一个带返回数据的查找函数一、函数原型 vlookup（查询的内容A，查询区域B，取数位置列C，FALSE）
+A：【单元格数据】 B：【数据块】包含多个单元格 C：【数值】B数据块的第几列 返回值：返回单元格数据
+二、示例 表1
+   学号 姓名 分数     001 小明    002 小诗    003 小书     表2
+   姓名 分数     小书 96   小明 99   小诗 92    目标： 将表2的分数填写到表1中，姓名和分数要正确对应
+   学号 姓名 分数     001 小明 99   002 小诗 92   003 小书 96    逻辑： 取出表1的姓名小明，到表2中查找，匹配到表2的第3行，取出第2列的分数。 正确函数： =vlookup（表1！姓名，表2，第2列，FALSE）</description>
+    </item>
+    
+  </channel>
+</rss>

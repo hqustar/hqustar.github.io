@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>excel教学 on hqustar的博客</title>
+    <link>http://hqustar.github.io/categories/excel%E6%95%99%E5%AD%A6/</link>
+    <description>Recent content in excel教学 on hqustar的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 15 Mar 2018 02:06:48 +0000</lastBuildDate>
+    
+	<atom:link href="http://hqustar.github.io/categories/excel%E6%95%99%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>excel基础教程</title>
+      <link>http://hqustar.github.io/post/excel%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Thu, 15 Mar 2018 02:06:48 +0000</pubDate>
+      
+      <guid>http://hqustar.github.io/post/excel%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/</guid>
+      <description>把excel的常用操作和技巧记录下来，并在其后附上视频演示方便学习。所有的步骤都是我都亲自测试过，使用的excel版本是2016。
+Excel 快捷方式 换行；alt+回车 再次执行上一次操作（类似格式刷）； F4 设置文本格式； ‘+内容
+视频
+简化excel数据录入过程 按回车后不跳转单元格； 选中单元格 alt+单击 批量添加内容；选中目标 设置单元格格式 只定义 类型输入 “前缀”@“后缀” 从上往下连续输入内容； alt+↓
+视频
+实现excel单元格中的下拉选项 选中目标 菜单栏中选择数据验证 在设置中选择“序列” 在来源中输入以逗号分割的序列或者在数据表中选中数据来源。
+视频
+数据输入限定 数据有效性 设置有效性条件； 选中单元格，在数据选项卡选择数据验证 定位有效性条件； 在‘开始’选项卡选择‘查找和选择’，‘定位条件’ ‘数据验证’ 复制有效性条件； 复制设定有效性的单元格 黏贴到其他单元格。或者选择性黏贴 选择‘验证’ 清除有效性条件；在开始选项卡选择‘清除’ ‘全部清除’ 视频
+标示Excel表格中的无效数据 数据有效性条件可以阻止无效数据被输入，但不能阻止错误数据被复制和粘贴。换句话说，我们可以将错误的数据黏贴到限定条件的单元格里。 标示无效数据；选中区域，在‘数据’选项卡中选择‘数据验证’ ‘圈释无效数据’ 视频
+Excel限定输入本月日期 在数据选项卡中择数据验证，在设置中选择‘日期’ ‘介于’ 最小值填入
+=DATE(YEAR(TODAY()),MONTH(TODAY()),1) 最大值填入
+=DATE(YEAR(TODAY()),MONTH(TODAY())+1,0) 视频</description>
+    </item>
+    
+  </channel>
+</rss>
