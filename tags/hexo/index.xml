@@ -2,42 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hexo on hqustar的博客</title>
-    <link>http://hqustar.github.io/tags/hexo/</link>
+    <link>https://hqustar.github.io/tags/hexo/</link>
     <description>Recent content in hexo on hqustar的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>zh-CN</language>
     <lastBuildDate>Sun, 12 Feb 2017 21:50:16 +0000</lastBuildDate>
     
-	<atom:link href="http://hqustar.github.io/tags/hexo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hqustar.github.io/tags/hexo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>使用hexo与github搭建博客网站</title>
-      <link>http://hqustar.github.io/post/%E4%BD%BF%E7%94%A8hexo%E4%B8%8Egithub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</link>
+      <link>https://hqustar.github.io/post/%E4%BD%BF%E7%94%A8hexo%E4%B8%8Egithub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</link>
       <pubDate>Sun, 12 Feb 2017 21:50:16 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E4%BD%BF%E7%94%A8hexo%E4%B8%8Egithub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</guid>
-      <description>参照Markdown 简单的世界并结合自己搭建过程中的点滴，将本站的搭建过程做个记录。
-Hexo是一个开源的静态博客生成器，用node.js开发，作者是台湾大学生tommy351。
-为什么是博客 对于个人网站来说，没有比博客更合适的形式了。在博客中，文章才是最主要的，一切都显得主次分明，干净利落。相比之下，论坛中主题和回复鱼龙混杂，阅读体验非常差。同时，博客比论坛的数据库小很多，便于维护。
-为什么是静态博客 很多人选择在虚拟主机或vps上面搭建动态博客。但是这些主机商通常“免费的不稳定，稳定的不免费”。前一段时间，我观察了我的个人博客友链上面的几个站点，一部分在十几天之后就销声匿迹了。独立博客如此麻烦的维护工作，能不能减轻一些呢？正如阮一峰前辈所说，blogger分为三个阶段。最开始，是门户博客。之后，是独立博客。最后，觉得独立博客自己管理起来费劲，便找个别人来管的空间，自己负责写就好。如果我们能够找到这样的空间，在自己保留最大控制权前提下，由别人托管，会省去不少事情。 静态博客编译之后是纯html页面，优点就是支持它的环境十分好找，例如github、gitcafe、七牛云存储等站点都支持静态页面托管，自然是我们的首选了。由于github page在国内访问较慢，这篇文章用gitcafe做示范。gitcafe是天朝本地化的github，同样提供展示页和域名绑定功能，不需要备案，就是爽。 但是静态博客并非没有缺点。动态博客更新文章时，脚本是不变的，只需要更新数据库。静态博客要频繁改动文件，不支持增量式上传的东西，比如ftp，就难于管理。此外，还要十分熟悉git各种命令，才能部署页面。
-准备工作  git node.js markdown编辑器 github  安装 git linux下面，在bash中键入： (Ubuntu, Debian)
-$ sudo apt-get install git (Fedora, Red Hat, CentOS)
-$ sudo yum install git windows或mac下，直接到git-scm官网下载安装。
-安装 node.js linux下： $ sudo apt-get install nodejs $ sudo apt-get install npm yum同理。 windows或者mac下，直接到node.js官网下载安装。 windows还要设置环境变量，把node.js安装路径写进path里面，用半角分号分隔。
-注册github账号 首先注册一个github账号username，之后创建一个username.github.io的项目。 如：我的github账号是hqustar，创建了一个hqustar.github.io项目。
-安装和初始化 linux下打开bash，win下面打开cmd，输入： $ npm install hexo -g $ hexo init blog $ cd blog $ npm install $ hexo server 访问http://localhost:4000，会看到生成好的博客。</description>
+      <guid>https://hqustar.github.io/post/%E4%BD%BF%E7%94%A8hexo%E4%B8%8Egithub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</guid>
+      <description>参照Markdown 简单的世界并结合自己搭建过程中的点滴，将本站的搭建过程做个记录。 Hexo是一个开源的静态博客生成器，用node.js开发，作者是台湾大学生tommy351。 为什么是博客 对于个人网站来说，没有比博客更合适的形式了。在博客中，文章才是最主要的，一切都显得主次分明，</description>
     </item>
     
     <item>
       <title>hexo静态博客上通过markdown搭建相册</title>
-      <link>http://hqustar.github.io/post/hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E4%B8%8A%E9%80%9A%E8%BF%87markdown%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C/</link>
+      <link>https://hqustar.github.io/post/hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E4%B8%8A%E9%80%9A%E8%BF%87markdown%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E4%B8%8A%E9%80%9A%E8%BF%87markdown%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C/</guid>
-      <description>一张图（最基本用法 markdown语法） ![Alt text](图片链接 &amp;#34;optional title&amp;#34;) Alt text：图片的Alt标签，用来描述图片的关键词，可以不写。最初的本意是当图片因为某种原因不能被显示时而出现的替代文字，后来又被用于SEO，可以方便搜索引擎根据Alt text里面的关键词搜索到图片。 图片链接：可以是图片的本地地址或者是网址。&amp;ldquo;optional title&amp;rdquo;：鼠标悬置于图片上会出现的标题文字，可以不写。多图横向滚动 设计原理：将图片填充到表格的格子里，当表格超出页面显示的最大宽度，在表格的下方就会出现一个横向滑块。
-不带表头的写法（css:table） &amp;lt;table&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;&amp;lt;img src=&amp;#34;图片地址&amp;#34; width=&amp;#34;图片宽度&amp;#34;/&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;img src=&amp;#34;图片地址&amp;#34; width=&amp;#34;图片宽度&amp;#34;/&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/table&amp;gt; 效果演示：
-带表头的写法（markdown 语法） | 表头1 | 表头2 | 表头3 | 表头4 | 表头5 | | ---- | ---- | ---- | ---- | ---- | | 图片1 | 图片2 | 图片3 | 图片4 | 图片5 |    江滨公园1 江滨公园2 江滨公园3 江滨公园4 江滨公园5             缺点：不能自由控制图片显示的长度和宽度。</description>
+      <guid>https://hqustar.github.io/post/hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E4%B8%8A%E9%80%9A%E8%BF%87markdown%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C/</guid>
+      <description>一张图（最基本用法 markdown语法） 1 ![Alt text](图片链接 &amp;#34;optional title&amp;#34;) Alt text：图片的Alt标签，用来描述图片的关键词，可以不写。最初的本意是当图片因为某种原因不能被显示时而出现的替代文字，后来又被用于SEO，可以方便搜索引擎根据Alt text里面的关键词搜索到图片。 图片链接：可</description>
     </item>
     
   </channel>

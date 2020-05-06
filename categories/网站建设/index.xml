@@ -2,23 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>网站建设 on hqustar的博客</title>
-    <link>http://hqustar.github.io/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/</link>
+    <link>https://hqustar.github.io/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/</link>
     <description>Recent content in 网站建设 on hqustar的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>zh-CN</language>
     
-	<atom:link href="http://hqustar.github.io/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hqustar.github.io/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>hexo静态博客上通过markdown搭建相册</title>
-      <link>http://hqustar.github.io/post/hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E4%B8%8A%E9%80%9A%E8%BF%87markdown%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C/</link>
+      <link>https://hqustar.github.io/post/hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E4%B8%8A%E9%80%9A%E8%BF%87markdown%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E4%B8%8A%E9%80%9A%E8%BF%87markdown%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C/</guid>
-      <description>一张图（最基本用法 markdown语法） ![Alt text](图片链接 &amp;#34;optional title&amp;#34;) Alt text：图片的Alt标签，用来描述图片的关键词，可以不写。最初的本意是当图片因为某种原因不能被显示时而出现的替代文字，后来又被用于SEO，可以方便搜索引擎根据Alt text里面的关键词搜索到图片。 图片链接：可以是图片的本地地址或者是网址。&amp;ldquo;optional title&amp;rdquo;：鼠标悬置于图片上会出现的标题文字，可以不写。多图横向滚动 设计原理：将图片填充到表格的格子里，当表格超出页面显示的最大宽度，在表格的下方就会出现一个横向滑块。
-不带表头的写法（css:table） &amp;lt;table&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;&amp;lt;img src=&amp;#34;图片地址&amp;#34; width=&amp;#34;图片宽度&amp;#34;/&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;img src=&amp;#34;图片地址&amp;#34; width=&amp;#34;图片宽度&amp;#34;/&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/table&amp;gt; 效果演示：
-带表头的写法（markdown 语法） | 表头1 | 表头2 | 表头3 | 表头4 | 表头5 | | ---- | ---- | ---- | ---- | ---- | | 图片1 | 图片2 | 图片3 | 图片4 | 图片5 |    江滨公园1 江滨公园2 江滨公园3 江滨公园4 江滨公园5             缺点：不能自由控制图片显示的长度和宽度。</description>
+      <guid>https://hqustar.github.io/post/hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E4%B8%8A%E9%80%9A%E8%BF%87markdown%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C/</guid>
+      <description>一张图（最基本用法 markdown语法） 1 ![Alt text](图片链接 &amp;#34;optional title&amp;#34;) Alt text：图片的Alt标签，用来描述图片的关键词，可以不写。最初的本意是当图片因为某种原因不能被显示时而出现的替代文字，后来又被用于SEO，可以方便搜索引擎根据Alt text里面的关键词搜索到图片。 图片链接：可</description>
     </item>
     
   </channel>

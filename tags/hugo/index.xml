@@ -2,27 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hugo on hqustar的博客</title>
-    <link>http://hqustar.github.io/tags/hugo/</link>
+    <link>https://hqustar.github.io/tags/hugo/</link>
     <description>Recent content in hugo on hqustar的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>zh-CN</language>
     <lastBuildDate>Fri, 14 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://hqustar.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hqustar.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>将博客从hexo迁移到hugo</title>
-      <link>http://hqustar.github.io/post/%E5%B0%86%E5%8D%9A%E5%AE%A2%E4%BB%8Ehexo%E8%BF%81%E7%A7%BB%E5%88%B0hugo/</link>
+      <link>https://hqustar.github.io/post/%E5%B0%86%E5%8D%9A%E5%AE%A2%E4%BB%8Ehexo%E8%BF%81%E7%A7%BB%E5%88%B0hugo/</link>
       <pubDate>Fri, 14 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E5%B0%86%E5%8D%9A%E5%AE%A2%E4%BB%8Ehexo%E8%BF%81%E7%A7%BB%E5%88%B0hugo/</guid>
-      <description>之前的静态博客是使用hexo+github环境，考虑到hexo在编译生成效率低，经过对比hugo效率确实比较高。决定将博客迁移到hugo+github上，使用的主题是maupassant，在这基础上改动了一点点css文件（maupassant\static\css\style.css)和html的模板文件(maupassant\layouts\partials)。遇见困难是，原来在hexo环境下的markdown文章，头部信息tags和categories标签不兼容hugo，需要重新修改，用这篇文章做个记录。
-hugo环境搭建 参阅Hugo中文文档
-github上传项目的时候报出git@github.com: Permission denied (publickey). fatal: Could not read from remote repo参阅 https://blog.csdn.net/weixin_44394753/article/details/91410463
-将博客从hexo迁移到hugo需要注意的事项
-    hexo hugo     分类category问题 categories : categories : []   标签tag问题 tags: tags: []   post下自建文件夹 允许 不允许    markdown语法
-常用部署代码 hugocd publicgit initgit remote add origin https://github.com/hqustar/hqustar.github.io.gitgit add -Agit commit -m &amp;quot;first commit&amp;quot;git push -u origin master浏览器里访问https://hqustar.</description>
+      <guid>https://hqustar.github.io/post/%E5%B0%86%E5%8D%9A%E5%AE%A2%E4%BB%8Ehexo%E8%BF%81%E7%A7%BB%E5%88%B0hugo/</guid>
+      <description>之前的静态博客是使用hexo+github环境，考虑到hexo在编译生成效率低，经过对比hugo效率确实比较高。决定将博客迁移到hugo+github上，使用的主题是maupassant，在这基础上改动了一点点css文件（maupassant\static\css\style.c</description>
     </item>
     
   </channel>

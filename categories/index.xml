@@ -2,111 +2,111 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on hqustar的博客</title>
-    <link>http://hqustar.github.io/categories/</link>
+    <link>https://hqustar.github.io/categories/</link>
     <description>Recent content in Categories on hqustar的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>zh-CN</language>
     <lastBuildDate>Sat, 15 Feb 2020 09:53:44 +0800</lastBuildDate>
     
-	<atom:link href="http://hqustar.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hqustar.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>生活经验</title>
-      <link>http://hqustar.github.io/categories/%E7%94%9F%E6%B4%BB%E7%BB%8F%E9%AA%8C/</link>
+      <link>https://hqustar.github.io/categories/%E7%94%9F%E6%B4%BB%E7%BB%8F%E9%AA%8C/</link>
       <pubDate>Sat, 15 Feb 2020 09:53:44 +0800</pubDate>
       
-      <guid>http://hqustar.github.io/categories/%E7%94%9F%E6%B4%BB%E7%BB%8F%E9%AA%8C/</guid>
+      <guid>https://hqustar.github.io/categories/%E7%94%9F%E6%B4%BB%E7%BB%8F%E9%AA%8C/</guid>
       <description></description>
     </item>
     
     <item>
       <title>本站建设</title>
-      <link>http://hqustar.github.io/categories/%E6%9C%AC%E7%AB%99%E5%BB%BA%E8%AE%BE/</link>
+      <link>https://hqustar.github.io/categories/%E6%9C%AC%E7%AB%99%E5%BB%BA%E8%AE%BE/</link>
       <pubDate>Fri, 14 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/categories/%E6%9C%AC%E7%AB%99%E5%BB%BA%E8%AE%BE/</guid>
+      <guid>https://hqustar.github.io/categories/%E6%9C%AC%E7%AB%99%E5%BB%BA%E8%AE%BE/</guid>
       <description></description>
     </item>
     
     <item>
       <title>散文</title>
-      <link>http://hqustar.github.io/categories/%E6%95%A3%E6%96%87/</link>
+      <link>https://hqustar.github.io/categories/%E6%95%A3%E6%96%87/</link>
       <pubDate>Tue, 20 Mar 2018 23:50:12 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/categories/%E6%95%A3%E6%96%87/</guid>
+      <guid>https://hqustar.github.io/categories/%E6%95%A3%E6%96%87/</guid>
       <description></description>
     </item>
     
     <item>
       <title>excel教学</title>
-      <link>http://hqustar.github.io/categories/excel%E6%95%99%E5%AD%A6/</link>
+      <link>https://hqustar.github.io/categories/excel%E6%95%99%E5%AD%A6/</link>
       <pubDate>Thu, 15 Mar 2018 02:06:48 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/categories/excel%E6%95%99%E5%AD%A6/</guid>
+      <guid>https://hqustar.github.io/categories/excel%E6%95%99%E5%AD%A6/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Development</title>
-      <link>http://hqustar.github.io/categories/development/</link>
+      <link>https://hqustar.github.io/categories/Development/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/categories/development/</guid>
+      <guid>https://hqustar.github.io/categories/Development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>http://hqustar.github.io/categories/golang/</link>
+      <link>https://hqustar.github.io/categories/golang/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/categories/golang/</guid>
+      <guid>https://hqustar.github.io/categories/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>index</title>
-      <link>http://hqustar.github.io/categories/index/</link>
+      <link>https://hqustar.github.io/categories/index/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/categories/index/</guid>
+      <guid>https://hqustar.github.io/categories/index/</guid>
       <description></description>
     </item>
     
     <item>
       <title>给先生的信</title>
-      <link>http://hqustar.github.io/categories/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E4%BF%A1/</link>
+      <link>https://hqustar.github.io/categories/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E4%BF%A1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/categories/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E4%BF%A1/</guid>
+      <guid>https://hqustar.github.io/categories/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E4%BF%A1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>网站建设</title>
-      <link>http://hqustar.github.io/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/</link>
+      <link>https://hqustar.github.io/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/</guid>
+      <guid>https://hqustar.github.io/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/</guid>
       <description></description>
     </item>
     
     <item>
       <title>软件工具</title>
-      <link>http://hqustar.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/</link>
+      <link>https://hqustar.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/</guid>
+      <guid>https://hqustar.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/</guid>
       <description></description>
     </item>
     
     <item>
       <title>随笔</title>
-      <link>http://hqustar.github.io/categories/%E9%9A%8F%E7%AC%94/</link>
+      <link>https://hqustar.github.io/categories/%E9%9A%8F%E7%AC%94/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/categories/%E9%9A%8F%E7%AC%94/</guid>
+      <guid>https://hqustar.github.io/categories/%E9%9A%8F%E7%AC%94/</guid>
       <description></description>
     </item>
     

@@ -2,60 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>本站建设 on hqustar的博客</title>
-    <link>http://hqustar.github.io/categories/%E6%9C%AC%E7%AB%99%E5%BB%BA%E8%AE%BE/</link>
+    <link>https://hqustar.github.io/categories/%E6%9C%AC%E7%AB%99%E5%BB%BA%E8%AE%BE/</link>
     <description>Recent content in 本站建设 on hqustar的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>zh-CN</language>
     <lastBuildDate>Fri, 14 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://hqustar.github.io/categories/%E6%9C%AC%E7%AB%99%E5%BB%BA%E8%AE%BE/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hqustar.github.io/categories/%E6%9C%AC%E7%AB%99%E5%BB%BA%E8%AE%BE/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>将博客从hexo迁移到hugo</title>
-      <link>http://hqustar.github.io/post/%E5%B0%86%E5%8D%9A%E5%AE%A2%E4%BB%8Ehexo%E8%BF%81%E7%A7%BB%E5%88%B0hugo/</link>
+      <link>https://hqustar.github.io/post/%E5%B0%86%E5%8D%9A%E5%AE%A2%E4%BB%8Ehexo%E8%BF%81%E7%A7%BB%E5%88%B0hugo/</link>
       <pubDate>Fri, 14 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E5%B0%86%E5%8D%9A%E5%AE%A2%E4%BB%8Ehexo%E8%BF%81%E7%A7%BB%E5%88%B0hugo/</guid>
-      <description>之前的静态博客是使用hexo+github环境，考虑到hexo在编译生成效率低，经过对比hugo效率确实比较高。决定将博客迁移到hugo+github上，使用的主题是maupassant，在这基础上改动了一点点css文件（maupassant\static\css\style.css)和html的模板文件(maupassant\layouts\partials)。遇见困难是，原来在hexo环境下的markdown文章，头部信息tags和categories标签不兼容hugo，需要重新修改，用这篇文章做个记录。
-hugo环境搭建 参阅Hugo中文文档
-github上传项目的时候报出git@github.com: Permission denied (publickey). fatal: Could not read from remote repo参阅 https://blog.csdn.net/weixin_44394753/article/details/91410463
-将博客从hexo迁移到hugo需要注意的事项
-    hexo hugo     分类category问题 categories : categories : []   标签tag问题 tags: tags: []   post下自建文件夹 允许 不允许    markdown语法
-常用部署代码 hugocd publicgit initgit remote add origin https://github.com/hqustar/hqustar.github.io.gitgit add -Agit commit -m &amp;quot;first commit&amp;quot;git push -u origin master浏览器里访问https://hqustar.</description>
+      <guid>https://hqustar.github.io/post/%E5%B0%86%E5%8D%9A%E5%AE%A2%E4%BB%8Ehexo%E8%BF%81%E7%A7%BB%E5%88%B0hugo/</guid>
+      <description>之前的静态博客是使用hexo+github环境，考虑到hexo在编译生成效率低，经过对比hugo效率确实比较高。决定将博客迁移到hugo+github上，使用的主题是maupassant，在这基础上改动了一点点css文件（maupassant\static\css\style.c</description>
     </item>
     
     <item>
       <title>hexo博客添加文章置顶及标签</title>
-      <link>http://hqustar.github.io/post/hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6%E5%8F%8A%E6%A0%87%E7%AD%BE/</link>
+      <link>https://hqustar.github.io/post/hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6%E5%8F%8A%E6%A0%87%E7%AD%BE/</link>
       <pubDate>Tue, 20 Mar 2018 00:21:05 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6%E5%8F%8A%E6%A0%87%E7%AD%BE/</guid>
-      <description>转载自
-博文置顶 目前已经有修改后支持置顶的仓库，可以直接用以下命令安装。
-npm uninstall hexo-generator-index --save npm install hexo-generator-index-pin-top --save 然后在需要置顶的文章的Front-matter中加上top: true即可。比如下面这篇文章：
---- title: hexo+GitHub博客搭建实战 date: 2017-09-08 12:00:25 categories:[ 博客搭建系列 top: true --- 到目前为止，置顶功能已经可以实现了。所有相关博文到这边就结束了。
-不过置顶的文章显示在最上面之后，如果没有明确的置顶标志，是不是感觉有点怪怪的呢？
-设置置顶标志 打开：/blog/themes/next/layout/_macro 目录下的post.swig文件，定位到&amp;lt;div class=&amp;quot;post-meta&amp;quot;&amp;gt;标签下，插入如下代码：
-{% if post.top %} &amp;lt;i class=&amp;quot;fa fa-thumb-tack&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; &amp;lt;font color=7D26CD&amp;gt;置顶&amp;lt;/font&amp;gt; &amp;lt;span class=&amp;quot;post-meta-divider&amp;quot;&amp;gt;|&amp;lt;/span&amp;gt; {% endif %} </description>
+      <guid>https://hqustar.github.io/post/hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6%E5%8F%8A%E6%A0%87%E7%AD%BE/</guid>
+      <description>转载自 博文置顶 目前已经有修改后支持置顶的仓库，可以直接用以下命令安装。 npm uninstall hexo-generator-index --save npm install hexo-generator-index-pin-top --save 然后在需要置顶的文章的Front-matter中加上top: true即可。比如下面这篇文章： --- title: hexo+GitHub博客搭建实战 date: 2017-09-08 12:00:25 categories:[ 博客搭建系列 top: true --- 到目前为止，置顶功能已经可以实现了。所</description>
     </item>
     
     <item>
       <title>使用hexo与github搭建博客网站</title>
-      <link>http://hqustar.github.io/post/%E4%BD%BF%E7%94%A8hexo%E4%B8%8Egithub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</link>
+      <link>https://hqustar.github.io/post/%E4%BD%BF%E7%94%A8hexo%E4%B8%8Egithub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</link>
       <pubDate>Sun, 12 Feb 2017 21:50:16 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E4%BD%BF%E7%94%A8hexo%E4%B8%8Egithub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</guid>
-      <description>参照Markdown 简单的世界并结合自己搭建过程中的点滴，将本站的搭建过程做个记录。
-Hexo是一个开源的静态博客生成器，用node.js开发，作者是台湾大学生tommy351。
-为什么是博客 对于个人网站来说，没有比博客更合适的形式了。在博客中，文章才是最主要的，一切都显得主次分明，干净利落。相比之下，论坛中主题和回复鱼龙混杂，阅读体验非常差。同时，博客比论坛的数据库小很多，便于维护。
-为什么是静态博客 很多人选择在虚拟主机或vps上面搭建动态博客。但是这些主机商通常“免费的不稳定，稳定的不免费”。前一段时间，我观察了我的个人博客友链上面的几个站点，一部分在十几天之后就销声匿迹了。独立博客如此麻烦的维护工作，能不能减轻一些呢？正如阮一峰前辈所说，blogger分为三个阶段。最开始，是门户博客。之后，是独立博客。最后，觉得独立博客自己管理起来费劲，便找个别人来管的空间，自己负责写就好。如果我们能够找到这样的空间，在自己保留最大控制权前提下，由别人托管，会省去不少事情。 静态博客编译之后是纯html页面，优点就是支持它的环境十分好找，例如github、gitcafe、七牛云存储等站点都支持静态页面托管，自然是我们的首选了。由于github page在国内访问较慢，这篇文章用gitcafe做示范。gitcafe是天朝本地化的github，同样提供展示页和域名绑定功能，不需要备案，就是爽。 但是静态博客并非没有缺点。动态博客更新文章时，脚本是不变的，只需要更新数据库。静态博客要频繁改动文件，不支持增量式上传的东西，比如ftp，就难于管理。此外，还要十分熟悉git各种命令，才能部署页面。
-准备工作  git node.js markdown编辑器 github  安装 git linux下面，在bash中键入： (Ubuntu, Debian)
-$ sudo apt-get install git (Fedora, Red Hat, CentOS)
-$ sudo yum install git windows或mac下，直接到git-scm官网下载安装。
-安装 node.js linux下： $ sudo apt-get install nodejs $ sudo apt-get install npm yum同理。 windows或者mac下，直接到node.js官网下载安装。 windows还要设置环境变量，把node.js安装路径写进path里面，用半角分号分隔。
-注册github账号 首先注册一个github账号username，之后创建一个username.github.io的项目。 如：我的github账号是hqustar，创建了一个hqustar.github.io项目。
-安装和初始化 linux下打开bash，win下面打开cmd，输入： $ npm install hexo -g $ hexo init blog $ cd blog $ npm install $ hexo server 访问http://localhost:4000，会看到生成好的博客。</description>
+      <guid>https://hqustar.github.io/post/%E4%BD%BF%E7%94%A8hexo%E4%B8%8Egithub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</guid>
+      <description>参照Markdown 简单的世界并结合自己搭建过程中的点滴，将本站的搭建过程做个记录。 Hexo是一个开源的静态博客生成器，用node.js开发，作者是台湾大学生tommy351。 为什么是博客 对于个人网站来说，没有比博客更合适的形式了。在博客中，文章才是最主要的，一切都显得主次分明，</description>
     </item>
     
   </channel>

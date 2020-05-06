@@ -2,22 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>软件工具 on hqustar的博客</title>
-    <link>http://hqustar.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/</link>
+    <link>https://hqustar.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/</link>
     <description>Recent content in 软件工具 on hqustar的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>zh-CN</language>
     
-	<atom:link href="http://hqustar.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hqustar.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>绝佳的必备软件清单</title>
-      <link>http://hqustar.github.io/post/%E7%BB%9D%E4%BD%B3%E7%9A%84%E5%BF%85%E5%A4%87%E8%BD%AF%E4%BB%B6%E6%B8%85%E5%8D%95/</link>
+      <link>https://hqustar.github.io/post/%E7%BB%9D%E4%BD%B3%E7%9A%84%E5%BF%85%E5%A4%87%E8%BD%AF%E4%BB%B6%E6%B8%85%E5%8D%95/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E7%BB%9D%E4%BD%B3%E7%9A%84%E5%BF%85%E5%A4%87%E8%BD%AF%E4%BB%B6%E6%B8%85%E5%8D%95/</guid>
-      <description>这里将自己平时发现的一些非常有用的软件工具做一个汇总，包括windows ios android三个平台。
-绝佳的必备软件清单 windows 平台 截图和录像软件 【FastStone Capture】 软件卸载 【IObit Uninstaller】 图片查看 【ACDSee】 文件搜索神器 【everything】 远程控制软件 【Teamviewer】 文件管理器 【Total Commander】 快速启动工具 【Launchy】【CLaunch】 广告过滤 【Ad Muncher】 下载工具 【Internet Download Manager】 数据恢复软件 【金山数据恢复】 数学公式编辑器 【MathType】 常用字体包 【monaco】【方正小标宋简体】【仿宋_GB2312】 PDF阅读标注 【PDFXCview2】【福昕阅读器】 PDF文件转换分割（PDF WORD 图片）【pdf shaper】 windows和office激活工具 【KMSpico】 markdown书写 【Typora】【yu-writer】 简易版可用【MarkdownEditor】 鼠标指针美化 【ComixCursors_Blue】 百度文库下载 【冰点下载idocdown】 给控制台加点linux 命令，一个开箱即用的 Windows Shell 【babun】、 iphone 利用屏幕镜像投影到pc 【AirPlayer】 android 软件市场 【酷安】 浏览器 【via】【夸克浏览器】 云盘 【百度云】【坚果云】 文字扫描 【CamScanner】 ios 软件市场 【爱思助手】 剪切板软件 【pin】 软件限免信息 【price tag】 输入法 【gboard】 手机做无线鼠标 【minimouse】电脑也要安装minimouse.</description>
+      <guid>https://hqustar.github.io/post/%E7%BB%9D%E4%BD%B3%E7%9A%84%E5%BF%85%E5%A4%87%E8%BD%AF%E4%BB%B6%E6%B8%85%E5%8D%95/</guid>
+      <description>这里将自己平时发现的一些非常有用的软件工具做一个汇总，包括windows ios android三个平台。 绝佳的必备软件清单 windows 平台 截图和录像软件 【FastStone Capture】 软件卸载 【IObit Uninstaller】 图片查看 【ACDSee】 文件搜索神器 【everything】 远程</description>
     </item>
     
   </channel>

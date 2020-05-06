@@ -2,250 +2,165 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on hqustar的博客</title>
-    <link>http://hqustar.github.io/post/</link>
+    <link>https://hqustar.github.io/post/</link>
     <description>Recent content in Posts on hqustar的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>zh-CN</language>
     <lastBuildDate>Sat, 15 Feb 2020 09:53:44 +0800</lastBuildDate>
     
-	<atom:link href="http://hqustar.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hqustar.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>打造属于自己的时尚感 男士正确穿搭</title>
-      <link>http://hqustar.github.io/post/%E6%89%93%E9%80%A0%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E6%97%B6%E5%B0%9A%E6%84%9F-%E7%94%B7%E5%A3%AB%E6%AD%A3%E7%A1%AE%E7%A9%BF%E6%90%AD/</link>
+      <link>https://hqustar.github.io/post/%E6%89%93%E9%80%A0%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E6%97%B6%E5%B0%9A%E6%84%9F-%E7%94%B7%E5%A3%AB%E6%AD%A3%E7%A1%AE%E7%A9%BF%E6%90%AD/</link>
       <pubDate>Sat, 15 Feb 2020 09:53:44 +0800</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E6%89%93%E9%80%A0%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E6%97%B6%E5%B0%9A%E6%84%9F-%E7%94%B7%E5%A3%AB%E6%AD%A3%E7%A1%AE%E7%A9%BF%E6%90%AD/</guid>
-      <description>男士正确穿搭品类和配色表
-前言 从小到大对吃和穿方面都不太重视，最近偶有机会看了一些有关气质养成的书籍，觉得有必要重视服饰穿搭方面的知识，期望能学以致用。故将一些零散的文章知识汇总成篇，做到不断跟新完善，形成自己的风格。
-穿搭的几个方面和分类    上装 下装 鞋子 袜子 皮带 手表 帽子     西装(套西) 牛仔裤 牛津鞋√ 隐形袜（船袜）√ 正装腰带 机械√ 浅顶软呢帽   内衣 棉裤（休闲裤） 德比鞋√ 短袜 帆布 光动能√ 圆顶硬帽   T恤 西裤 乐福鞋 中筒袜  石英√ 棒球帽√   衬衫  布洛克√ 长筒袜√  运动手表    毛衣（针织衫）  高帮马靴       短外套  运动鞋       立式折领大衣         POLO衫          上装 西装(套西)：选择贴合修身（黑、藏青）色，不要带有花纹装饰。穿套西的场合比较少，建议花钱买件贵的西装，不会过时。</description>
+      <guid>https://hqustar.github.io/post/%E6%89%93%E9%80%A0%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E6%97%B6%E5%B0%9A%E6%84%9F-%E7%94%B7%E5%A3%AB%E6%AD%A3%E7%A1%AE%E7%A9%BF%E6%90%AD/</guid>
+      <description>男士正确穿搭品类和配色表 前言 从小到大对吃和穿方面都不太重视，最近偶有机会看了一些有关气质养成的书籍，觉得有必要重视服饰穿搭方面的知识，期望能学以致用。故将一些零散的文章知识汇总成篇，做到不断跟新完善，形成自己的风格。 穿搭的几个方面和分类 上装 下装 鞋子 袜子 皮带 手表 帽子 西装(套西) 牛仔</description>
     </item>
     
     <item>
       <title>将博客从hexo迁移到hugo</title>
-      <link>http://hqustar.github.io/post/%E5%B0%86%E5%8D%9A%E5%AE%A2%E4%BB%8Ehexo%E8%BF%81%E7%A7%BB%E5%88%B0hugo/</link>
+      <link>https://hqustar.github.io/post/%E5%B0%86%E5%8D%9A%E5%AE%A2%E4%BB%8Ehexo%E8%BF%81%E7%A7%BB%E5%88%B0hugo/</link>
       <pubDate>Fri, 14 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E5%B0%86%E5%8D%9A%E5%AE%A2%E4%BB%8Ehexo%E8%BF%81%E7%A7%BB%E5%88%B0hugo/</guid>
-      <description>之前的静态博客是使用hexo+github环境，考虑到hexo在编译生成效率低，经过对比hugo效率确实比较高。决定将博客迁移到hugo+github上，使用的主题是maupassant，在这基础上改动了一点点css文件（maupassant\static\css\style.css)和html的模板文件(maupassant\layouts\partials)。遇见困难是，原来在hexo环境下的markdown文章，头部信息tags和categories标签不兼容hugo，需要重新修改，用这篇文章做个记录。
-hugo环境搭建 参阅Hugo中文文档
-github上传项目的时候报出git@github.com: Permission denied (publickey). fatal: Could not read from remote repo参阅 https://blog.csdn.net/weixin_44394753/article/details/91410463
-将博客从hexo迁移到hugo需要注意的事项
-    hexo hugo     分类category问题 categories : categories : []   标签tag问题 tags: tags: []   post下自建文件夹 允许 不允许    markdown语法
-常用部署代码 hugocd publicgit initgit remote add origin https://github.com/hqustar/hqustar.github.io.gitgit add -Agit commit -m &amp;quot;first commit&amp;quot;git push -u origin master浏览器里访问https://hqustar.</description>
+      <guid>https://hqustar.github.io/post/%E5%B0%86%E5%8D%9A%E5%AE%A2%E4%BB%8Ehexo%E8%BF%81%E7%A7%BB%E5%88%B0hugo/</guid>
+      <description>之前的静态博客是使用hexo+github环境，考虑到hexo在编译生成效率低，经过对比hugo效率确实比较高。决定将博客迁移到hugo+github上，使用的主题是maupassant，在这基础上改动了一点点css文件（maupassant\static\css\style.c</description>
     </item>
     
     <item>
       <title>摄影曝光原理和控制</title>
-      <link>http://hqustar.github.io/post/%E6%91%84%E5%BD%B1%E6%9B%9D%E5%85%89%E5%8E%9F%E7%90%86%E5%92%8C%E6%8E%A7%E5%88%B6/</link>
+      <link>https://hqustar.github.io/post/%E6%91%84%E5%BD%B1%E6%9B%9D%E5%85%89%E5%8E%9F%E7%90%86%E5%92%8C%E6%8E%A7%E5%88%B6/</link>
       <pubDate>Mon, 02 Sep 2019 21:45:46 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E6%91%84%E5%BD%B1%E6%9B%9D%E5%85%89%E5%8E%9F%E7%90%86%E5%92%8C%E6%8E%A7%E5%88%B6/</guid>
-      <description>1、 影响曝光的三要素 影响曝光的三要素分别是：光圈、快门、感光度
-光圈：光圈越大虚化越明显，景深较浅，更能突出主体，适合用于人像拍摄和微距拍摄；光圈越小则景深却大，整个画面都是清晰的，适合用于风景拍摄和场景记录。（注：景深指的是最远可见的清晰景物和镜头的距离，远处的景物看得清说明景深大，远处的景物看不清说明景深小）快门：专业讲法是相机内部快门板闭合所用的时间长度，通俗讲就是抓取图像的时间。高速快门用于拍摄运动物体，达到瞬间抓拍的效果。慢速快门因为闭合的时间较长，运动物体会形成拖影，经常用来拍摄瀑布流水形成绸缎般的效果，或者夜间拍摄马路上的汽车形成流动的光影。
-感光度：感光度越，大照片的噪点就越多。噪点越少，成像的效果就越好。（注：我们把图片放大会看到一些灰白色的小像素点，这就是像素丢失。同样长宽尺寸的图片，图片大小不一样，原因就在像素点的有效密度，我们经常说的这张图片比较大，效果比较好，这其中的道理就在于此）
-为什么这三要素会影响曝光？ 这里我们引入一个概念“进光量”，就是光的多少。下图是光圈的物理结构。
-光圈越大则中间开孔越大，在相同时间里开口越大则进光量越多。我们在看一下快门的物理结构。
-每一层帘幕由数片(一般为4至6片)非常平直的小薄片相叠而成。这些小薄片在杠杆的控制下，即可以迅速展开，又可以彼此灵活地重叠在一起。展开之后，其相邻的小薄片之间始终仍有一部分彼此相重叠，因此相邻部位始终不会漏光。所谓的快门就是这个帘幕的闭合时间。
-因为光圈和快门都是物理结构，自然就有物理的机械极限，所以光圈和快门都有个最大值和最小值，进光量自然也有个最大和最小值。当进光量不能满足我们拍摄要求时，图片过暗，通过提高感光度，相机会给相片加入像素白点提高成像亮度，缺点就是会降低图片质量，但是一张看的见的图片总是要比黑暗一片什么也看不清来的强。
-2、曝光三要素之间如何分主次 答案：根据拍摄对象来定。如果是拍摄运动物体，想要抓拍快门是第一因素。（对应的相机也有个拍摄模式叫快门优先，相机会根据快门值自动调整光圈得到一个相对准确的曝光）；如果是拍摄静物，光圈优先是更好的选择，不同的光圈可以呈现不同的效果。（对应的相机也有个拍摄模式叫光圈优先，相机会根据光圈值自动调整快门得到一个相对准确的曝光）；至于感光度嘛？如非迫不得已，当然是越小越好啦！（注：相机还有个M档模式，又称手动档，通过自己调整光圈和快门数值和感光度值控制曝光效果，祝早日进阶老法师段位！）
-3、 什么是安全快门？ 安全快门是指通常在1/60s 左右，相机“喀嚓”的瞬间，相机就执行曝光过程。这个时间如果长于1/60s ，便很容易因为手的晃动，而让画面变的很模糊。如果想要用慢速快门，请用三角支架。
-4、 聊一聊曝光补偿 先说一下“18度灰”，此处括号内容复制百度：（摄影测光以18%反射率做为爆光参考值.(因为相机普通使用的测光系统都是以18度灰板的灰色来做为基准值的，但纯黑的主体或纯白的主体其测出的值与18度灰板比较的时候，会产生极大的误差，造成实际测光值会曝光过度或欠曝!)导致拍摄白雪看起来不够白，拍摄纯黑又看起来不够黑。所以在拍摄白色物体时要加一点正补偿，在拍摄暗色物体时要加负补偿。这就是经常说的“白加黑减”</description>
+      <guid>https://hqustar.github.io/post/%E6%91%84%E5%BD%B1%E6%9B%9D%E5%85%89%E5%8E%9F%E7%90%86%E5%92%8C%E6%8E%A7%E5%88%B6/</guid>
+      <description>1、 影响曝光的三要素 影响曝光的三要素分别是：光圈、快门、感光度 光圈：光圈越大虚化越明显，景深较浅，更能突出主体，适合用于人像拍摄和微距拍摄；光圈越小则景深却大，整个画面都是清晰的，适合用于风景拍摄和场景记录。（注：景深指的是最远可见的清晰景物和镜头的距离，远处的景物看得清说明景深</description>
     </item>
     
     <item>
       <title>Excel汇总（提取）多文件数据</title>
-      <link>http://hqustar.github.io/post/excel%E6%B1%87%E6%80%BB%E6%8F%90%E5%8F%96%E5%A4%9A%E6%96%87%E4%BB%B6%E6%95%B0%E6%8D%AE/</link>
+      <link>https://hqustar.github.io/post/Excel%E6%B1%87%E6%80%BB%E6%8F%90%E5%8F%96%E5%A4%9A%E6%96%87%E4%BB%B6%E6%95%B0%E6%8D%AE/</link>
       <pubDate>Tue, 09 Apr 2019 21:29:23 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/excel%E6%B1%87%E6%80%BB%E6%8F%90%E5%8F%96%E5%A4%9A%E6%96%87%E4%BB%B6%E6%95%B0%E6%8D%AE/</guid>
-      <description>1、 类似场景描述
-从记录有个人信息的excel文档中提取出姓名和电话，制作一份通讯录。
-个人信息文档都是统一格式目标制作成
-2、 第一步：获取所有文档名称
-【方法一】在excel引用外部命令files()获取文件列表。
-在excel【公式】选项卡中选择[定义名称]，在弹窗自定义事件名称“文件名称列表”，在引用位置中输入=files(&amp;ldquo;D:\临时文档*.&amp;quot;)，因为文档放在路径D;\临时文档\下，.*是通配符，此处照抄便是。
-接着在A2单元格输入=INDEX(文件名称列表,ROW(A1))，然后鼠标往下拖，这就获取全部文件名称了。
-当出现#REF！表示已经超出文件了，我们再把#REF！删除。
-【方法二】利用windows控制台命令获取文件名称。
-按下快捷键win+R，输入cmd回车，输入D:回车，进入D盘。（同理输入C:回车，进入C盘）
-输入cd 临时文档，进入到目标文件夹。输入dir /B 获取文件名。
-将结果写入到1.txt文件中，dir /B &amp;gt;1.txt。打开1.txt将内容复制到excel里面，我们就得到了文件名称了。
-3、 获取excel文件里面的数据
-因为个人信息的excel内容格式统一，我们就可以通过文件名称组建路径，获取对应单元格内的数据。
-观察图中圈划部分，[小东.xlsx]表示个人信息文件，Sheet1是第一张数据表，$E$2是电话号码所在的单元格。我们需要让[小东.xlsx]能够自动变化。在小丽这行变成=[小丽.xlsx]Sheet1!$E$2。
-让我们在B2中输入，=&amp;rdquo;[&amp;quot;&amp;amp;A2&amp;amp;&amp;quot;]Sheet1!$E$2&amp;rdquo;，回车后往下拉动单元格。
-然后我们将这部分选中，复制然后选择性黏贴成数值。在利用替换将字符重新变成函数。</description>
+      <guid>https://hqustar.github.io/post/Excel%E6%B1%87%E6%80%BB%E6%8F%90%E5%8F%96%E5%A4%9A%E6%96%87%E4%BB%B6%E6%95%B0%E6%8D%AE/</guid>
+      <description>1、 类似场景描述 从记录有个人信息的excel文档中提取出姓名和电话，制作一份通讯录。 个人信息文档都是统一格式目标制作成 2、 第一步：获取所有文档名称 【方法一】在excel引用外部命令files()获取文件列表。 在excel【公式】选项卡中选择[定义名称]，在弹窗自定义事件名称“文件</description>
     </item>
     
     <item>
       <title>怎么设置路由器（关于路由器、交换机和集线器的认识集合）</title>
-      <link>http://hqustar.github.io/post/%E6%80%8E%E4%B9%88%E8%AE%BE%E7%BD%AE%E8%B7%AF%E7%94%B1%E5%99%A8%E5%85%B3%E4%BA%8E%E8%B7%AF%E7%94%B1%E5%99%A8%E4%BA%A4%E6%8D%A2%E6%9C%BA%E5%92%8C%E9%9B%86%E7%BA%BF%E5%99%A8%E7%9A%84%E8%AE%A4%E8%AF%86%E9%9B%86%E5%90%88/</link>
+      <link>https://hqustar.github.io/post/%E6%80%8E%E4%B9%88%E8%AE%BE%E7%BD%AE%E8%B7%AF%E7%94%B1%E5%99%A8%E5%85%B3%E4%BA%8E%E8%B7%AF%E7%94%B1%E5%99%A8%E4%BA%A4%E6%8D%A2%E6%9C%BA%E5%92%8C%E9%9B%86%E7%BA%BF%E5%99%A8%E7%9A%84%E8%AE%A4%E8%AF%86%E9%9B%86%E5%90%88/</link>
       <pubDate>Wed, 13 Feb 2019 13:25:10 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E6%80%8E%E4%B9%88%E8%AE%BE%E7%BD%AE%E8%B7%AF%E7%94%B1%E5%99%A8%E5%85%B3%E4%BA%8E%E8%B7%AF%E7%94%B1%E5%99%A8%E4%BA%A4%E6%8D%A2%E6%9C%BA%E5%92%8C%E9%9B%86%E7%BA%BF%E5%99%A8%E7%9A%84%E8%AE%A4%E8%AF%86%E9%9B%86%E5%90%88/</guid>
-      <description>一、概念 局域网：（Local Area Network，LAN）是指在某一区域内由多台计算机互联成的计算机组。 广域网（英语：Wide Area Network，缩写为 WAN），又称广域网、外网、公网。是连接不同地区局域网或城域网计算机通信的远程网。路由器：（Router）是连接因特网中各局域网、广域网的设备。在路由器中记录着路由表，它会根据信道的情况自动选择和设定路由，以最佳路径，按前后顺序发送信号。发生在网络层。 交换机：（Switch）是一种用于电（光）信号转发的网络设备。它可以为接入交换机的任意两个网络节点提供独享的电信号通路，把传输的信息送到符合要求的相应路由上。发生在数据链路层。 集线器：（Hub）是指将多条以太网双绞线或光纤集合连接在同一段物理介质下的设备。发生在物理层。 网络的七层协议：OSI（Open System Interconnection）是一个开放性的通信系统互连参考模型。OSI模型有7层结构，每层都可以有几个子层。 OSI的7层从上到下分别是 7 应用层 6 表示层 5 会话层 4 传输层 3 网络层 2 数据链路层 1 物理层 ；其中高层（即7、6、5、4层）定义了应用程序的功能，下面3层（即3、2、1层）主要面向通过网络的端到端的数据流。 二、区别主要体现在功能和层次     路由器 交换机 集线器     工作层次 网络层 数据链路层 物理层   转发依据 IP地址 MAC地址 MAC地址（广播）   功能 连接不同的网络 连接局域网中的电脑 连接局域网中的电脑   宽带影响 共享宽带 独享宽带 共享宽带    三、路由器的设置 （一）路由器的WAN口连接类型 1.(PPPoE拨号)PPPoE拨号上网，在有的路由器上又叫做：ADSL拨号上网、宽带拨号上网。这种宽带类型有一个显著的特点，就是宽带运营商(电信、联通、移动)会提供一个宽带账号、宽带密码给用户;在没用路由器时，电脑上需要用“宽带连接”(类似程序)来拨号，拨号成功后才能上网。如果你符合上诉情况，那么在设置路由器时，WAN口连接类型就应该选择：PPPoE拨号(ADSL拨号、宽带拨号)，然后填写宽带运营商提供的宽带账号、宽带密码，然后就可以上网了。
-2.(动态IP)动态IP上网，有的路由器上又叫做：DHCP上网、自动获取IP上网。动态IP上网宽带类型的特点是：宽带运营商(电信、联通、移动)不会提供宽带账号和密码，在未使用路由器的时候，只需要把宽带网线连接到电脑上，电脑就可以上网了。如果你的情况与上面介绍的相符，那么在设置路由器时，WAN口连接类型就应该选择：动态IP(自动获取IP地址、DHCP) 。</description>
+      <guid>https://hqustar.github.io/post/%E6%80%8E%E4%B9%88%E8%AE%BE%E7%BD%AE%E8%B7%AF%E7%94%B1%E5%99%A8%E5%85%B3%E4%BA%8E%E8%B7%AF%E7%94%B1%E5%99%A8%E4%BA%A4%E6%8D%A2%E6%9C%BA%E5%92%8C%E9%9B%86%E7%BA%BF%E5%99%A8%E7%9A%84%E8%AE%A4%E8%AF%86%E9%9B%86%E5%90%88/</guid>
+      <description>一、概念 局域网：（Local Area Network，LAN）是指在某一区域内由多台计算机互联成的计算机组。 广域网（英语：Wide Area Network，缩写为 WAN），又称广域网、外网、公网。是连接不同地区局域网或城域网计算机通信的远程网。路由器：（Router）是连接因特网中各局域网、广域</description>
     </item>
     
     <item>
       <title>Excel常用函数示例</title>
-      <link>http://hqustar.github.io/post/excel%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E7%A4%BA%E4%BE%8B/</link>
+      <link>https://hqustar.github.io/post/Excel%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E7%A4%BA%E4%BE%8B/</link>
       <pubDate>Tue, 12 Feb 2019 22:20:12 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/excel%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E7%A4%BA%E4%BE%8B/</guid>
-      <description>一、原文本数据规范化   小写字母变成大写（upper函数） Upper（“1234567890abc”） 结果是 1234567890ABC 大写变成小写 函数 lower（）  数字变成文本（TEXT（）） TEXT（123，0） 结果是 “123” 0是标志位，不用管他
-  文本变数字只需将其进行数量加减，如&amp;quot;23&amp;quot;+0
-  组织机构代码标准化处理 12345678X 含有字母的excel默认当作文本处理，遇见123456789 纯数字的excel默认当作数字处理，更特殊的如001234567 excel会当作数字并只显示 1234567 那么如何处理各种样式的组织机构代码呢？ 第一步：新建一列，将所有的将组织机构代码内容全部变成文本 text（组织机构代码，0）。 第二部：因为组织机构代码是9位，所以要对不够9位的在它的开头补“0”；使用lEN（文本）函数得到文本的长度。如果长度为7，要补“00”；如果长度为8，要补“0”。 示例：   二、常用函数  查找函数（find函数） 判断“aaa”是否在“123aaabbb”里面 find（“aaa”，“123aaabbb”，1）找到返回真TRUE； Find（“aaa”，“123aabc”，1）找不到返回假FALSE。 获取字符长度（LEN函数） LEN（“1234asd”）返回 数字7 Len（“123abc中文”） 返回数字8 获取字节长度（LENB函数） 中文汉字在计算机里是占两个字节（英文byte也叫比特），如“中”，一个汉字是一个字符，两个字节。 Lenb（“123abc中文”）返回数字10 Lenb（“123abc”）返回数字6 文本截取（LEFT函数，RIGHT函数，MID函数） LENFT（“1234abc”，4） 表示截取文本的前4个字符，得到 “1234” RIGHT（“1234abc”，3） 表示截取文本的后3个字符，得到“abc” MID（“123abc”，2，4）表示从文本的第2个字符开始，截取4位，得到“23ab” 错误过滤函数（IFERROR函数） 假如函数f执行之后结果出现错误，比如没有匹配到，看到的是一个形如 #N/A 的内容。 IFERROR（f，“”）如果f函数返回时错误，则显示为空 IFERROR（f，“AA”）如果f函数返回错误，则显示为AA  注：如果f函数执行成功，则显示的是f函数的结果。 6.	文本拼接（“&amp;amp;”） “123”&amp;amp;“abc” 结果是“123abc”
-跨表查找与对比(vlookup函数) 详见以下链接： https://hqustar.</description>
+      <guid>https://hqustar.github.io/post/Excel%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E7%A4%BA%E4%BE%8B/</guid>
+      <description>一、原文本数据规范化 小写字母变成大写（upper函数） Upper（“1234567890abc”） 结果是 1234567890ABC 大写变成小写 函数 lower（） 数字变成文本（TEXT（）） TEXT（123，0） 结果是 “123” 0是标志位，不用管他 文本变数字只需将其进行数量加减，如&amp;quot;23&amp;quo</description>
     </item>
     
     <item>
       <title>不要问我春风有多长</title>
-      <link>http://hqustar.github.io/post/%E4%B8%8D%E8%A6%81%E9%97%AE%E6%88%91%E6%98%A5%E9%A3%8E%E6%9C%89%E5%A4%9A%E9%95%BF/</link>
+      <link>https://hqustar.github.io/post/%E4%B8%8D%E8%A6%81%E9%97%AE%E6%88%91%E6%98%A5%E9%A3%8E%E6%9C%89%E5%A4%9A%E9%95%BF/</link>
       <pubDate>Tue, 17 Apr 2018 12:57:45 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E4%B8%8D%E8%A6%81%E9%97%AE%E6%88%91%E6%98%A5%E9%A3%8E%E6%9C%89%E5%A4%9A%E9%95%BF/</guid>
-      <description>不要问我春风有多长 我伸出手却抓不住它 想来应该长于我的手掌 不要问我春风有多长 她的长发飘起 我知道 它应该比那长发还长 不要问我春风有多长 我问了问那绿柳 绿柳说 春风有那柳枝一样长 不要问我春风有多长 当江水起了波澜 我知道 它比那江水还长 不要问我春风有多长 只要它让你感到暖 长于你微笑的牙 我知道它走了很长很长的路 才抵达了你的心房 </description>
+      <guid>https://hqustar.github.io/post/%E4%B8%8D%E8%A6%81%E9%97%AE%E6%88%91%E6%98%A5%E9%A3%8E%E6%9C%89%E5%A4%9A%E9%95%BF/</guid>
+      <description>不要问我春风有多长 我伸出手却抓不住它 想来应该长于我的手掌 不要问我春风有多长 她的长发飘起 我知道 它应该比那长发还长 不要问我春风有多长 我问了问那绿柳 绿柳说 春风有那柳枝一样长 不要问我春风有多长 当江水起了波澜 我知道 它比那江水还长 不要问我春风有多长 只要它让你感到暖 长于你微笑的牙 我知道它走了很</description>
     </item>
     
     <item>
       <title>摄影入门必备的基础知识</title>
-      <link>http://hqustar.github.io/post/%E6%91%84%E5%BD%B1%E5%85%A5%E9%97%A8%E5%BF%85%E5%A4%87%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
+      <link>https://hqustar.github.io/post/%E6%91%84%E5%BD%B1%E5%85%A5%E9%97%A8%E5%BF%85%E5%A4%87%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
       <pubDate>Sun, 25 Mar 2018 12:37:17 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E6%91%84%E5%BD%B1%E5%85%A5%E9%97%A8%E5%BF%85%E5%A4%87%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
-      <description>相机设置及相片参数 AE 自动曝光：光圈优先AE式是由拍摄者人为选择拍摄时的光圈大小，由相机根据景物亮度、CCD感光度以及人为选择的光圈等信息自动选择合适曝光所要求的快门时间的自动曝光模式，也即光圈手动、快门时间自动的曝光方式。这种曝光方式主要用在需优先考虑景深的拍摄场合，如拍摄风景、肖像或微距摄影等。AF 自动对焦：是利用物体光反射的原理，将反射的光被相机上的传感器CCD接受，通过计算机处理，带动电动对焦装置进行对焦的方式叫自动对焦。它多分为二类：一是主动式，另一个则是被动式。
-AWB 自动白平衡：通常为数码相机的默认设置，相机中有一结构复杂的矩形图，它可决定画面中的白平衡基准点，以此来达到白平衡调校。这种自动白平衡的准确率是非常高的，但是在光线不足条件下下拍摄时，效果较差，例如多云天气下，许多自动白平衡系统的效果极差，它可能会导致偏蓝。
-AEB 自动包围曝光：是一种通过对同一对象拍摄曝光量不同的多张照片“包围”在一起，以获得正确曝光照片的方法。“自动”指照相机会自动对被摄物体拍摄连续拍摄2、3或5张曝光量在0.3到2.0EV之间的照片（每张照片曝光量不同）。
-HDR，就是英文HighDynamic Range的缩写，高-动态-范围的意思。实现的原理也很简单：同一个场景，拍摄几张不同曝光的照片，把亮的暗的都照顾到，都拍出细节。过曝的照片取暗处——细节丰富。正常曝光的取中间调。欠曝的照片取亮的地方——细节丰富。最后合成为一张。当然，HDR 实际上是针对黄昏、阴天等光线条件不佳的情况作出处理，所以在平时没必要开启，这也是很多人至今对这一模式不了解的原因。
-ISO表示CCD或者CMOS感光元件的感光的速度。值越低，相片的质量越高，相片的细节表现的得越细腻，iso值越高，相片的亮度就越高，而相片的质量会随着iso值的升高而降低，噪点会变得越来越严重，但高iso值可以弥补光线的不足。</description>
+      <guid>https://hqustar.github.io/post/%E6%91%84%E5%BD%B1%E5%85%A5%E9%97%A8%E5%BF%85%E5%A4%87%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
+      <description>相机设置及相片参数 AE 自动曝光：光圈优先AE式是由拍摄者人为选择拍摄时的光圈大小，由相机根据景物亮度、CCD感光度以及人为选择的光圈等信息自动选择合适曝光所要求的快门时间的自动曝光模式，也即光圈手动、快门时间自动的曝光方式。这种曝光方式主要用在需优先考虑景深的拍摄场合，如拍摄风景、</description>
     </item>
     
     <item>
       <title>夜里9点以后的诏安小巷</title>
-      <link>http://hqustar.github.io/post/%E5%A4%9C%E9%87%8C9%E7%82%B9%E4%BB%A5%E5%90%8E%E7%9A%84%E8%AF%8F%E5%AE%89%E5%B0%8F%E5%B7%B7/</link>
+      <link>https://hqustar.github.io/post/%E5%A4%9C%E9%87%8C9%E7%82%B9%E4%BB%A5%E5%90%8E%E7%9A%84%E8%AF%8F%E5%AE%89%E5%B0%8F%E5%B7%B7/</link>
       <pubDate>Tue, 20 Mar 2018 23:50:12 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E5%A4%9C%E9%87%8C9%E7%82%B9%E4%BB%A5%E5%90%8E%E7%9A%84%E8%AF%8F%E5%AE%89%E5%B0%8F%E5%B7%B7/</guid>
-      <description>晚上，妈妈又谈到了找对象的事情，这事情经常讲以至于天天讲，除了让我觉得烦以外还无形间形成了很大的心理压力。我已经在认真努力找寻了，可是对象这种事总不能戏谑的用两个象棋子凑成一对吧，所以讲还是要被讲，不开心还是继续吧，很无可奈何。经验告诉我不开心的时候吃点好吃的，整个人就会很满足，或者出去外面走一走，感受自然的阳光与微风，看看草木也能将心理阴霾吹散。
-穿上外套，骑着电动车就出发了，沿着中山路往通济桥的方向去。新华书店那边的路已经被围起来了，可能是有工程项目要施工。我的车沿着旁边流出来的缝隙小心翼翼的前行，最后拐入了巷子里面。白日里热热闹闹，人来人往的景象此刻都不见了，9点以后的巷子显得格外的冷清，路两旁的店铺要么已经关闭了，要么就是正要关闭，零落的几家店铺还开着，买夜宵的小铺摊子上升腾着热气，两三个人围坐在一起边吃边聊，丰富的表情加上夸张的手势，我想他们应该是在说很美妙的故事吧，今日有什么奇闻异事，我也很想知道哈。
-店铺关门之前会把摆在门口的摊子都收起来，整条巷子比白日宽敞了不少，看起来也洁净了几分，我可以放心骑着我的车穿梭在其中了，不用担心会撞到商家的摊子。然而在交叉路口或者拐弯处还是好小心点，因为冷不防就遇见刚要回家的人们也从巷子里经过。
-我还看见了几家理发店正忙着给顾客理发，白日里大家都忙着工作，只有在夜里才有时间打理个人事务了，想来理发店生意应该不坏，没有高档的装潢设计，一面大镜子，一张椅子，一张长方形的桌子摆上几把剃刀和装着香水的瓶瓶罐罐就可以了，额，那一件像是肚兜的披风也是必须的。合理的价格加上长久的经营已经有了稳定的顾客，一方人民养一家店，一家店服务一方人民，这不就是科学发展观的具体实践吗？哈哈哈。
-除了理发店还有几家卖糖果的商铺也还没有关门，外面的摊子摆满了各式的糖果，五彩缤纷。小时候临近过年，妈妈带着我来这里采办过年货，买一些蜡烛炮仗、金花贴纸、各色糖果。小孩子最大，你觉得哪个好看尽管用手一指“要这个”，妈妈就会买下来。如果想买个玩具波浪鼓，玩具水枪，要是不掉几滴眼泪兼在地上滚一滚，那还真要不起，童年都几乎是这样吧，反正我是没见过几个慷慨的家长。
-不到半小时就绕了一圈回到宿舍了，迎着冷风感受巷子里的斑驳与破旧，匆匆一瞥也很难读懂。那怎么样才算是读懂 了，我觉得至少应该赤脚踩过四时的石子，看见流水的地方长处了青苔，听着老人讲传说，看着孩子长大。</description>
+      <guid>https://hqustar.github.io/post/%E5%A4%9C%E9%87%8C9%E7%82%B9%E4%BB%A5%E5%90%8E%E7%9A%84%E8%AF%8F%E5%AE%89%E5%B0%8F%E5%B7%B7/</guid>
+      <description>晚上，妈妈又谈到了找对象的事情，这事情经常讲以至于天天讲，除了让我觉得烦以外还无形间形成了很大的心理压力。我已经在认真努力找寻了，可是对象这种事总不能戏谑的用两个象棋子凑成一对吧，所以讲还是要被讲，不开心还是继续吧，很无可奈何。 经验告诉我不开心的时候吃点好吃的，整个人就会很满足，</description>
     </item>
     
     <item>
       <title>hexo博客添加文章置顶及标签</title>
-      <link>http://hqustar.github.io/post/hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6%E5%8F%8A%E6%A0%87%E7%AD%BE/</link>
+      <link>https://hqustar.github.io/post/hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6%E5%8F%8A%E6%A0%87%E7%AD%BE/</link>
       <pubDate>Tue, 20 Mar 2018 00:21:05 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6%E5%8F%8A%E6%A0%87%E7%AD%BE/</guid>
-      <description>转载自
-博文置顶 目前已经有修改后支持置顶的仓库，可以直接用以下命令安装。
-npm uninstall hexo-generator-index --save npm install hexo-generator-index-pin-top --save 然后在需要置顶的文章的Front-matter中加上top: true即可。比如下面这篇文章：
---- title: hexo+GitHub博客搭建实战 date: 2017-09-08 12:00:25 categories:[ 博客搭建系列 top: true --- 到目前为止，置顶功能已经可以实现了。所有相关博文到这边就结束了。
-不过置顶的文章显示在最上面之后，如果没有明确的置顶标志，是不是感觉有点怪怪的呢？
-设置置顶标志 打开：/blog/themes/next/layout/_macro 目录下的post.swig文件，定位到&amp;lt;div class=&amp;quot;post-meta&amp;quot;&amp;gt;标签下，插入如下代码：
-{% if post.top %} &amp;lt;i class=&amp;quot;fa fa-thumb-tack&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; &amp;lt;font color=7D26CD&amp;gt;置顶&amp;lt;/font&amp;gt; &amp;lt;span class=&amp;quot;post-meta-divider&amp;quot;&amp;gt;|&amp;lt;/span&amp;gt; {% endif %} </description>
+      <guid>https://hqustar.github.io/post/hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6%E5%8F%8A%E6%A0%87%E7%AD%BE/</guid>
+      <description>转载自 博文置顶 目前已经有修改后支持置顶的仓库，可以直接用以下命令安装。 npm uninstall hexo-generator-index --save npm install hexo-generator-index-pin-top --save 然后在需要置顶的文章的Front-matter中加上top: true即可。比如下面这篇文章： --- title: hexo+GitHub博客搭建实战 date: 2017-09-08 12:00:25 categories:[ 博客搭建系列 top: true --- 到目前为止，置顶功能已经可以实现了。所</description>
     </item>
     
     <item>
       <title>linux常用命令</title>
-      <link>http://hqustar.github.io/post/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+      <link>https://hqustar.github.io/post/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
       <pubDate>Fri, 16 Mar 2018 23:30:57 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
-      <description>这里将一些常用的linux命令做一个简单归纳，想要进阶学习推荐下面两个网址
-linux命令在线中文手册
-linux命令大全
-grep 文件内容查找 [root@www ~]# grep [-acinv] [--color=auto] &#39;搜寻字符串&#39; filename 选项与参数： -a ：将 binary 文件以 text 文件的方式搜寻数据 -c ：计算找到 &#39;搜寻字符串&#39; 的次数 -i ：忽略大小写的不同，所以大小写视为相同 -n ：顺便输出行号 -v ：反向选择，亦即显示出没有 &#39;搜寻字符串&#39; 内容的那一行！ -r ：在当前目录及其子目录下搜索 -l ：在当前目录及其子目录下搜索，但是不显示匹配的行，只显示匹配的文件 --color=auto ：可以将找到的关键词部分加上颜色的显示喔！ </description>
+      <guid>https://hqustar.github.io/post/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+      <description>这里将一些常用的linux命令做一个简单归纳，想要进阶学习推荐下面两个网址 linux命令在线中文手册 linux命令大全 grep 文件内容查找 [root@www ~]# grep [-acinv] [--color=auto] &#39;搜寻字符串&#39; filename 选项与参数： -a ：将 binary 文件以 text 文件的方式搜寻数据 -c ：计算找到 &#39;搜寻字符串&#39; 的次数 -i ：忽略大小写的不同，所以大小写视为相同 -n ：</description>
     </item>
     
     <item>
       <title>excel基础教程</title>
-      <link>http://hqustar.github.io/post/excel%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/</link>
+      <link>https://hqustar.github.io/post/excel%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/</link>
       <pubDate>Thu, 15 Mar 2018 02:06:48 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/excel%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/</guid>
-      <description>把excel的常用操作和技巧记录下来，并在其后附上视频演示方便学习。所有的步骤都是我都亲自测试过，使用的excel版本是2016。
-Excel 快捷方式 换行；alt+回车 再次执行上一次操作（类似格式刷）； F4 设置文本格式； ‘+内容
-视频
-简化excel数据录入过程 按回车后不跳转单元格； 选中单元格 alt+单击 批量添加内容；选中目标 设置单元格格式 只定义 类型输入 “前缀”@“后缀” 从上往下连续输入内容； alt+↓
-视频
-实现excel单元格中的下拉选项 选中目标 菜单栏中选择数据验证 在设置中选择“序列” 在来源中输入以逗号分割的序列或者在数据表中选中数据来源。
-视频
-数据输入限定 数据有效性 设置有效性条件； 选中单元格，在数据选项卡选择数据验证 定位有效性条件； 在‘开始’选项卡选择‘查找和选择’，‘定位条件’ ‘数据验证’ 复制有效性条件； 复制设定有效性的单元格 黏贴到其他单元格。或者选择性黏贴 选择‘验证’ 清除有效性条件；在开始选项卡选择‘清除’ ‘全部清除’ 视频
-标示Excel表格中的无效数据 数据有效性条件可以阻止无效数据被输入，但不能阻止错误数据被复制和粘贴。换句话说，我们可以将错误的数据黏贴到限定条件的单元格里。 标示无效数据；选中区域，在‘数据’选项卡中选择‘数据验证’ ‘圈释无效数据’ 视频
-Excel限定输入本月日期 在数据选项卡中择数据验证，在设置中选择‘日期’ ‘介于’ 最小值填入
-=DATE(YEAR(TODAY()),MONTH(TODAY()),1) 最大值填入
-=DATE(YEAR(TODAY()),MONTH(TODAY())+1,0) 视频</description>
+      <guid>https://hqustar.github.io/post/excel%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/</guid>
+      <description>把excel的常用操作和技巧记录下来，并在其后附上视频演示方便学习。所有的步骤都是我都亲自测试过，使用的excel版本是2016。 Excel 快捷方式 换行；alt+回车 再次执行上一次操作（类似格式刷）； F4 设置文本格式； ‘+内容 视频 简化excel数据录入过程 按回车后不跳转单元格； 选中单元格 a</description>
     </item>
     
     <item>
       <title>网址收藏</title>
-      <link>http://hqustar.github.io/post/%E7%BD%91%E5%9D%80%E6%94%B6%E8%97%8F/</link>
+      <link>https://hqustar.github.io/post/%E7%BD%91%E5%9D%80%E6%94%B6%E8%97%8F/</link>
       <pubDate>Mon, 11 Dec 2017 22:19:22 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E7%BD%91%E5%9D%80%E6%94%B6%E8%97%8F/</guid>
-      <description>** 学习教程 **
-EXCEL函数 菜鸟教程 LINUX命令大全 蓝灯LANTERN OEASY自学
-** 文章天下事 **
-半月谈 人民观点 新华舆情
-** 资源下载 **
-我的小书屋 走读派 大眼仔 异次元软件 少数派</description>
+      <guid>https://hqustar.github.io/post/%E7%BD%91%E5%9D%80%E6%94%B6%E8%97%8F/</guid>
+      <description>** 学习教程 ** EXCEL函数 菜鸟教程 LINUX命令大全 蓝灯LANTERN OEASY自学 ** 文章天下事 ** 半月谈 人民观点 新华舆情 ** 资源下载 ** 我的小书屋 走读派 大眼仔 异次元软件 少数派</description>
     </item>
     
     <item>
       <title>vlookup函数的使用</title>
-      <link>http://hqustar.github.io/post/vlookup%E5%87%BD%E6%95%B0%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+      <link>https://hqustar.github.io/post/vlookup%E5%87%BD%E6%95%B0%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
       <pubDate>Mon, 11 Dec 2017 13:14:06 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/vlookup%E5%87%BD%E6%95%B0%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
-      <description>vlookup是一个带返回数据的查找函数一、函数原型 vlookup（查询的内容A，查询区域B，取数位置列C，FALSE）
-A：【单元格数据】 B：【数据块】包含多个单元格 C：【数值】B数据块的第几列 返回值：返回单元格数据
-二、示例 表1
-   学号 姓名 分数     001 小明    002 小诗    003 小书     表2
-   姓名 分数     小书 96   小明 99   小诗 92    目标： 将表2的分数填写到表1中，姓名和分数要正确对应
-   学号 姓名 分数     001 小明 99   002 小诗 92   003 小书 96    逻辑： 取出表1的姓名小明，到表2中查找，匹配到表2的第3行，取出第2列的分数。 正确函数： =vlookup（表1！姓名，表2，第2列，FALSE）</description>
+      <guid>https://hqustar.github.io/post/vlookup%E5%87%BD%E6%95%B0%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+      <description>vlookup是一个带返回数据的查找函数一、函数原型 vlookup（查询的内容A，查询区域B，取数位置列C，FALSE） A：【单元格数据】 B：【数据块】包含多个单元格 C：【数值】B数据块的第几列 返回值：返回单元格数据 二、示例 表1 学号 姓名 分数 001 小明 002 小诗 003 小书 表2 姓名 分数 小书 96 小明</description>
     </item>
     
     <item>
       <title>2017年我们参加人口抽样调查工作</title>
-      <link>http://hqustar.github.io/post/2017%E5%B9%B4%E6%88%91%E4%BB%AC%E5%8F%82%E5%8A%A0%E4%BA%BA%E5%8F%A3%E6%8A%BD%E6%A0%B7%E8%B0%83%E6%9F%A5%E5%B7%A5%E4%BD%9C/</link>
+      <link>https://hqustar.github.io/post/2017%E5%B9%B4%E6%88%91%E4%BB%AC%E5%8F%82%E5%8A%A0%E4%BA%BA%E5%8F%A3%E6%8A%BD%E6%A0%B7%E8%B0%83%E6%9F%A5%E5%B7%A5%E4%BD%9C/</link>
       <pubDate>Thu, 16 Nov 2017 00:38:14 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/2017%E5%B9%B4%E6%88%91%E4%BB%AC%E5%8F%82%E5%8A%A0%E4%BA%BA%E5%8F%A3%E6%8A%BD%E6%A0%B7%E8%B0%83%E6%9F%A5%E5%B7%A5%E4%BD%9C/</guid>
-      <description>2017年的人口抽样覆盖全县的10个乡镇的14个社区村，从10月份开始培训动员，到今天11月15日已经完成了调查阶段的全部工作。认识了一些新朋友，也继续联络一些去年的农业普查小伙伴，挺开心的。
-话不多说，直接上图。๑乛◡乛๑
- 10月13日在侨星大厦举办全县的人口抽样调查业务培训
-11月1&amp;ndash;11月15日为入户登记时间
-11月14日全市的人口抽样业务交流会上，桥东镇林纯的工作日记受表扬啦O(∩_∩)O哈哈~
-11月16日我们顺利通过了市办的验收。</description>
+      <guid>https://hqustar.github.io/post/2017%E5%B9%B4%E6%88%91%E4%BB%AC%E5%8F%82%E5%8A%A0%E4%BA%BA%E5%8F%A3%E6%8A%BD%E6%A0%B7%E8%B0%83%E6%9F%A5%E5%B7%A5%E4%BD%9C/</guid>
+      <description>2017年的人口抽样覆盖全县的10个乡镇的14个社区村，从10月份开始培训动员，到今天11月15日已经完成了调查阶段的全部工作。认识了一些新朋友，也继续联络一些去年的农业普查小伙伴，挺开心的。 话不多说，直接上图。๑乛◡乛๑ 10月13日在侨星大厦举办全县的人口抽样调查业务培训 11月</description>
     </item>
     
     <item>
       <title>hexo主题样式文件修改无效果</title>
-      <link>http://hqustar.github.io/post/hexo%E4%B8%BB%E9%A2%98%E6%A0%B7%E5%BC%8F%E6%96%87%E4%BB%B6%E4%BF%AE%E6%94%B9%E6%97%A0%E6%95%88%E6%9E%9C/</link>
+      <link>https://hqustar.github.io/post/hexo%E4%B8%BB%E9%A2%98%E6%A0%B7%E5%BC%8F%E6%96%87%E4%BB%B6%E4%BF%AE%E6%94%B9%E6%97%A0%E6%95%88%E6%9E%9C/</link>
       <pubDate>Tue, 14 Nov 2017 21:11:19 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/hexo%E4%B8%BB%E9%A2%98%E6%A0%B7%E5%BC%8F%E6%96%87%E4%BB%B6%E4%BF%AE%E6%94%B9%E6%97%A0%E6%95%88%E6%9E%9C/</guid>
-      <description>hexo换了个themes 部署上去显示一切正常。想给header添加一个背景色，在浏览器测试成功。
-然后修改themes下的样式文件 header.styl 增加一行代码
-hexo clean hexo d -g 发现网页header 没有变化，查看网页源码 header 样式中没有
-background #000
- 认识stylus 为什么是styl后缀文件，这个和传统的css样式文件有什么区别？ stylus介绍 官方Stylus API stylus中文版参考文档之综述
-查看生成在public文件夹下的静态网页 .header { width: 100%; height: 110px; display: flex; align-items: center; flex-direction: row; flex-wrap: nowrap; } background #000 .table { display: table; height: 100%; width: 100%; } background #000 .table .connect { display: table-cell; vertical-align: middle; } background #000 .table .connect .connect-inner { box-sizing: border-box; padding-top: 8px; display: flex; flex-direction: column; } 发现background #000 没有归到header 块里面，而是凸出来了。难不成是代码缩进出现问题？！！</description>
+      <guid>https://hqustar.github.io/post/hexo%E4%B8%BB%E9%A2%98%E6%A0%B7%E5%BC%8F%E6%96%87%E4%BB%B6%E4%BF%AE%E6%94%B9%E6%97%A0%E6%95%88%E6%9E%9C/</guid>
+      <description>hexo换了个themes 部署上去显示一切正常。想给header添加一个背景色，在浏览器测试成功。 然后修改themes下的样式文件 header.styl 增加一行代码 hexo clean hexo d -g 发现网页header 没有变化，查看网页源码 header 样式中没有 background #000 认识stylus 为什么是styl后缀文件，这个和传统的css样式文件</description>
     </item>
     
     <item>
       <title>村城草绿江边池鱼</title>
-      <link>http://hqustar.github.io/post/%E6%9D%91%E5%9F%8E%E8%8D%89%E7%BB%BF%E6%B1%9F%E8%BE%B9%E6%B1%A0%E9%B1%BC/</link>
+      <link>https://hqustar.github.io/post/%E6%9D%91%E5%9F%8E%E8%8D%89%E7%BB%BF%E6%B1%9F%E8%BE%B9%E6%B1%A0%E9%B1%BC/</link>
       <pubDate>Sat, 29 Jul 2017 00:03:36 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E6%9D%91%E5%9F%8E%E8%8D%89%E7%BB%BF%E6%B1%9F%E8%BE%B9%E6%B1%A0%E9%B1%BC/</guid>
+      <guid>https://hqustar.github.io/post/%E6%9D%91%E5%9F%8E%E8%8D%89%E7%BB%BF%E6%B1%9F%E8%BE%B9%E6%B1%A0%E9%B1%BC/</guid>
       <description>&lt;h3 id=&#34;东溪夜色&#34;&gt;东溪夜色&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;http://hqustar.gitee.io/blog/images/%E4%B8%9C%E6%BA%AA%E5%A4%9C%E8%89%B2.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;村城草绿江边池鱼&#34;&gt;村城草绿江边池鱼&lt;/h2&gt;
@@ -254,39 +169,39 @@ background #000
     
     <item>
       <title>小白鞋</title>
-      <link>http://hqustar.github.io/post/%E5%B0%8F%E7%99%BD%E9%9E%8B/</link>
+      <link>https://hqustar.github.io/post/%E5%B0%8F%E7%99%BD%E9%9E%8B/</link>
       <pubDate>Wed, 26 Jul 2017 12:47:26 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E5%B0%8F%E7%99%BD%E9%9E%8B/</guid>
+      <guid>https://hqustar.github.io/post/%E5%B0%8F%E7%99%BD%E9%9E%8B/</guid>
       <description>&lt;h2 id=&#34;小白鞋&#34;&gt;小白鞋&lt;/h2&gt;
 &lt;p&gt;夏日的炎热这几天我是真切的领教到了。早睡也是难以入眠的，只能等到夜深以后，热气退去才得以入睡。等待的时间漫长，干坐着也真真是无趣得很，所以就拿起手中的笔书写起来，不求章法不贪慕文采，当作是孩童掷出水漂在水上点几处水波化了开去，阳光下喷洒出的水花图一抹彩虹，增添一点生趣和色彩。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>公文格式排版</title>
-      <link>http://hqustar.github.io/post/%E5%85%AC%E6%96%87%E6%A0%BC%E5%BC%8F%E6%8E%92%E7%89%88/</link>
+      <link>https://hqustar.github.io/post/%E5%85%AC%E6%96%87%E6%A0%BC%E5%BC%8F%E6%8E%92%E7%89%88/</link>
       <pubDate>Fri, 21 Jul 2017 01:03:15 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E5%85%AC%E6%96%87%E6%A0%BC%E5%BC%8F%E6%8E%92%E7%89%88/</guid>
+      <guid>https://hqustar.github.io/post/%E5%85%AC%E6%96%87%E6%A0%BC%E5%BC%8F%E6%8E%92%E7%89%88/</guid>
       <description>&lt;p&gt;公文格式排版的知识，虽然看过书听过课，但距离实际掌握还有很大的差距，所以今晚花了点时间实践了一下。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>诏安风景</title>
-      <link>http://hqustar.github.io/post/%E8%AF%8F%E5%AE%89%E9%A3%8E%E6%99%AF/</link>
+      <link>https://hqustar.github.io/post/%E8%AF%8F%E5%AE%89%E9%A3%8E%E6%99%AF/</link>
       <pubDate>Tue, 18 Jul 2017 00:26:16 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E8%AF%8F%E5%AE%89%E9%A3%8E%E6%99%AF/</guid>
+      <guid>https://hqustar.github.io/post/%E8%AF%8F%E5%AE%89%E9%A3%8E%E6%99%AF/</guid>
       <description>&lt;h3 id=&#34;梅峰公园&#34;&gt;梅峰公园&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;http://hqustar.gitee.io/blog/images/01%E6%A2%85%E5%B3%B0.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>不会唱歌,不会作画,不会讲故事（日更新）</title>
-      <link>http://hqustar.github.io/post/%E4%B8%8D%E4%BC%9A%E5%94%B1%E6%AD%8C-%E4%B8%8D%E4%BC%9A%E4%BD%9C%E7%94%BB%E4%B8%8D%E4%BC%9A%E8%AE%B2%E6%95%85%E4%BA%8B/</link>
+      <link>https://hqustar.github.io/post/%E4%B8%8D%E4%BC%9A%E5%94%B1%E6%AD%8C-%E4%B8%8D%E4%BC%9A%E4%BD%9C%E7%94%BB%E4%B8%8D%E4%BC%9A%E8%AE%B2%E6%95%85%E4%BA%8B/</link>
       <pubDate>Wed, 22 Feb 2017 20:48:16 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E4%B8%8D%E4%BC%9A%E5%94%B1%E6%AD%8C-%E4%B8%8D%E4%BC%9A%E4%BD%9C%E7%94%BB%E4%B8%8D%E4%BC%9A%E8%AE%B2%E6%95%85%E4%BA%8B/</guid>
+      <guid>https://hqustar.github.io/post/%E4%B8%8D%E4%BC%9A%E5%94%B1%E6%AD%8C-%E4%B8%8D%E4%BC%9A%E4%BD%9C%E7%94%BB%E4%B8%8D%E4%BC%9A%E8%AE%B2%E6%95%85%E4%BA%8B/</guid>
       <description>&lt;p&gt;导语：拿起手中的笔写下心中的故事，告诉自己今天还没有过去。&lt;/p&gt;
 &lt;p&gt;2017.2.22
 今天早上组长带我们4人到红星检查农业普查工作，距离市级定下的完成时间没有几天了，发现普查工作还有很多不到位的地方，真令人着急。&lt;/p&gt;</description>
@@ -294,49 +209,39 @@ background #000
     
     <item>
       <title>使用hexo与github搭建博客网站</title>
-      <link>http://hqustar.github.io/post/%E4%BD%BF%E7%94%A8hexo%E4%B8%8Egithub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</link>
+      <link>https://hqustar.github.io/post/%E4%BD%BF%E7%94%A8hexo%E4%B8%8Egithub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</link>
       <pubDate>Sun, 12 Feb 2017 21:50:16 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E4%BD%BF%E7%94%A8hexo%E4%B8%8Egithub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</guid>
-      <description>参照Markdown 简单的世界并结合自己搭建过程中的点滴，将本站的搭建过程做个记录。
-Hexo是一个开源的静态博客生成器，用node.js开发，作者是台湾大学生tommy351。
-为什么是博客 对于个人网站来说，没有比博客更合适的形式了。在博客中，文章才是最主要的，一切都显得主次分明，干净利落。相比之下，论坛中主题和回复鱼龙混杂，阅读体验非常差。同时，博客比论坛的数据库小很多，便于维护。
-为什么是静态博客 很多人选择在虚拟主机或vps上面搭建动态博客。但是这些主机商通常“免费的不稳定，稳定的不免费”。前一段时间，我观察了我的个人博客友链上面的几个站点，一部分在十几天之后就销声匿迹了。独立博客如此麻烦的维护工作，能不能减轻一些呢？正如阮一峰前辈所说，blogger分为三个阶段。最开始，是门户博客。之后，是独立博客。最后，觉得独立博客自己管理起来费劲，便找个别人来管的空间，自己负责写就好。如果我们能够找到这样的空间，在自己保留最大控制权前提下，由别人托管，会省去不少事情。 静态博客编译之后是纯html页面，优点就是支持它的环境十分好找，例如github、gitcafe、七牛云存储等站点都支持静态页面托管，自然是我们的首选了。由于github page在国内访问较慢，这篇文章用gitcafe做示范。gitcafe是天朝本地化的github，同样提供展示页和域名绑定功能，不需要备案，就是爽。 但是静态博客并非没有缺点。动态博客更新文章时，脚本是不变的，只需要更新数据库。静态博客要频繁改动文件，不支持增量式上传的东西，比如ftp，就难于管理。此外，还要十分熟悉git各种命令，才能部署页面。
-准备工作  git node.js markdown编辑器 github  安装 git linux下面，在bash中键入： (Ubuntu, Debian)
-$ sudo apt-get install git (Fedora, Red Hat, CentOS)
-$ sudo yum install git windows或mac下，直接到git-scm官网下载安装。
-安装 node.js linux下： $ sudo apt-get install nodejs $ sudo apt-get install npm yum同理。 windows或者mac下，直接到node.js官网下载安装。 windows还要设置环境变量，把node.js安装路径写进path里面，用半角分号分隔。
-注册github账号 首先注册一个github账号username，之后创建一个username.github.io的项目。 如：我的github账号是hqustar，创建了一个hqustar.github.io项目。
-安装和初始化 linux下打开bash，win下面打开cmd，输入： $ npm install hexo -g $ hexo init blog $ cd blog $ npm install $ hexo server 访问http://localhost:4000，会看到生成好的博客。</description>
+      <guid>https://hqustar.github.io/post/%E4%BD%BF%E7%94%A8hexo%E4%B8%8Egithub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</guid>
+      <description>参照Markdown 简单的世界并结合自己搭建过程中的点滴，将本站的搭建过程做个记录。 Hexo是一个开源的静态博客生成器，用node.js开发，作者是台湾大学生tommy351。 为什么是博客 对于个人网站来说，没有比博客更合适的形式了。在博客中，文章才是最主要的，一切都显得主次分明，</description>
     </item>
     
     <item>
       <title>Creating a New Theme</title>
-      <link>http://hqustar.github.io/post/creating-a-new-theme/</link>
+      <link>https://hqustar.github.io/post/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/creating-a-new-theme/</guid>
+      <guid>https://hqustar.github.io/post/creating-a-new-theme/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+We&amp;rsquo;ll start with creating a new site with a very basic template. Then we&amp;rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.
+In this tutorial, commands that you enter will start with the &amp;ldquo;$&amp;rdquo; prompt. The output will follow. Lines that start with &amp;ldquo;#&amp;rdquo; are comments that I&amp;rsquo;ve added to explain a point. When I show updates to a file, the &amp;ldquo;:wq&amp;rdquo; on the last line means to save the file.</description>
     </item>
     
     <item>
       <title>hexo静态博客上通过markdown搭建相册</title>
-      <link>http://hqustar.github.io/post/hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E4%B8%8A%E9%80%9A%E8%BF%87markdown%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C/</link>
+      <link>https://hqustar.github.io/post/hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E4%B8%8A%E9%80%9A%E8%BF%87markdown%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E4%B8%8A%E9%80%9A%E8%BF%87markdown%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C/</guid>
-      <description>一张图（最基本用法 markdown语法） ![Alt text](图片链接 &amp;#34;optional title&amp;#34;) Alt text：图片的Alt标签，用来描述图片的关键词，可以不写。最初的本意是当图片因为某种原因不能被显示时而出现的替代文字，后来又被用于SEO，可以方便搜索引擎根据Alt text里面的关键词搜索到图片。 图片链接：可以是图片的本地地址或者是网址。&amp;ldquo;optional title&amp;rdquo;：鼠标悬置于图片上会出现的标题文字，可以不写。多图横向滚动 设计原理：将图片填充到表格的格子里，当表格超出页面显示的最大宽度，在表格的下方就会出现一个横向滑块。
-不带表头的写法（css:table） &amp;lt;table&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;&amp;lt;img src=&amp;#34;图片地址&amp;#34; width=&amp;#34;图片宽度&amp;#34;/&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;img src=&amp;#34;图片地址&amp;#34; width=&amp;#34;图片宽度&amp;#34;/&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/table&amp;gt; 效果演示：
-带表头的写法（markdown 语法） | 表头1 | 表头2 | 表头3 | 表头4 | 表头5 | | ---- | ---- | ---- | ---- | ---- | | 图片1 | 图片2 | 图片3 | 图片4 | 图片5 |    江滨公园1 江滨公园2 江滨公园3 江滨公园4 江滨公园5             缺点：不能自由控制图片显示的长度和宽度。</description>
+      <guid>https://hqustar.github.io/post/hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E4%B8%8A%E9%80%9A%E8%BF%87markdown%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C/</guid>
+      <description>一张图（最基本用法 markdown语法） 1 ![Alt text](图片链接 &amp;#34;optional title&amp;#34;) Alt text：图片的Alt标签，用来描述图片的关键词，可以不写。最初的本意是当图片因为某种原因不能被显示时而出现的替代文字，后来又被用于SEO，可以方便搜索引擎根据Alt text里面的关键词搜索到图片。 图片链接：可</description>
     </item>
     
     <item>
       <title>Total Commander常用快捷键</title>
-      <link>http://hqustar.github.io/post/total-commander-%E5%91%BD%E4%BB%A4/</link>
+      <link>https://hqustar.github.io/post/Total-commander-%E5%91%BD%E4%BB%A4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/total-commander-%E5%91%BD%E4%BB%A4/</guid>
+      <guid>https://hqustar.github.io/post/Total-commander-%E5%91%BD%E4%BB%A4/</guid>
       <description>&lt;p&gt;如下操作，既是TC默认，也是多标签软件（比如chrome）较为通用的设定。&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;新建tab：ctrl+t；
 关闭标签：ctrl+w；
@@ -348,124 +253,93 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     
     <item>
       <title>夜里醒来</title>
-      <link>http://hqustar.github.io/post/%E5%A4%9C%E9%87%8C%E9%86%92%E6%9D%A5/</link>
+      <link>https://hqustar.github.io/post/%E5%A4%9C%E9%87%8C%E9%86%92%E6%9D%A5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E5%A4%9C%E9%87%8C%E9%86%92%E6%9D%A5/</guid>
+      <guid>https://hqustar.github.io/post/%E5%A4%9C%E9%87%8C%E9%86%92%E6%9D%A5/</guid>
       <description>&lt;p&gt;在夜里醒来我把自己给吓了一跳，发现风扇再吹，日光灯也都亮着，我是不是又忘记关了灯？这灯是不是又亮了一整夜？我摸着手机点亮屏幕看了下，显示0:10，我紧张的心忽然就落了地，这一天还不算已经都过去了，我就睡了3小时这灯也没亮了很久。可接下来又要如何打发这剩余的时间，瞌睡虫早就在这惊吓中飞到九霄云外，毫无寻找的可能。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>如何解决因缺少字体以致word显示排版混乱的问题</title>
-      <link>http://hqustar.github.io/post/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E5%9B%A0%E7%BC%BA%E5%B0%91%E5%AD%97%E4%BD%93%E4%BB%A5%E8%87%B4word%E6%98%BE%E7%A4%BA%E6%8E%92%E7%89%88%E6%B7%B7%E4%B9%B1%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+      <link>https://hqustar.github.io/post/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E5%9B%A0%E7%BC%BA%E5%B0%91%E5%AD%97%E4%BD%93%E4%BB%A5%E8%87%B4word%E6%98%BE%E7%A4%BA%E6%8E%92%E7%89%88%E6%B7%B7%E4%B9%B1%E7%9A%84%E9%97%AE%E9%A2%98/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E5%9B%A0%E7%BC%BA%E5%B0%91%E5%AD%97%E4%BD%93%E4%BB%A5%E8%87%B4word%E6%98%BE%E7%A4%BA%E6%8E%92%E7%89%88%E6%B7%B7%E4%B9%B1%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+      <guid>https://hqustar.github.io/post/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E5%9B%A0%E7%BC%BA%E5%B0%91%E5%AD%97%E4%BD%93%E4%BB%A5%E8%87%B4word%E6%98%BE%E7%A4%BA%E6%8E%92%E7%89%88%E6%B7%B7%E4%B9%B1%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
       <description>&lt;h2 id=&#34;原因&#34;&gt;原因&lt;/h2&gt;
 &lt;p&gt;平常经常遇见word文件在不同电脑所见效果不同，主要的原因是电脑系统的版本差异导致的字体缺失。如windows xp系统仿宋字体的方案是&lt;strong&gt;仿宋GB2312&lt;/strong&gt;，而windows 7的是&lt;strong&gt;仿宋&lt;/strong&gt;字体。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>探访叶氏家庙有感</title>
-      <link>http://hqustar.github.io/post/%E6%8E%A2%E8%AE%BF%E5%8F%B6%E6%B0%8F%E5%AE%B6%E5%BA%99%E6%9C%89%E6%84%9F/</link>
+      <link>https://hqustar.github.io/post/%E6%8E%A2%E8%AE%BF%E5%8F%B6%E6%B0%8F%E5%AE%B6%E5%BA%99%E6%9C%89%E6%84%9F/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E6%8E%A2%E8%AE%BF%E5%8F%B6%E6%B0%8F%E5%AE%B6%E5%BA%99%E6%9C%89%E6%84%9F/</guid>
+      <guid>https://hqustar.github.io/post/%E6%8E%A2%E8%AE%BF%E5%8F%B6%E6%B0%8F%E5%AE%B6%E5%BA%99%E6%9C%89%E6%84%9F/</guid>
       <description>&lt;p&gt;这是我第二次参加读书会活动，因平时工作繁忙，加之周末偶有回家，就错过了好几次活动。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>给先生的第二十一封信（一颗纽扣）</title>
-      <link>http://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E5%B0%81%E4%BF%A1%E4%B8%80%E9%A2%97%E7%BA%BD%E6%89%A3/</link>
+      <link>https://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E5%B0%81%E4%BF%A1%E4%B8%80%E9%A2%97%E7%BA%BD%E6%89%A3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E5%B0%81%E4%BF%A1%E4%B8%80%E9%A2%97%E7%BA%BD%E6%89%A3/</guid>
+      <guid>https://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E5%B0%81%E4%BF%A1%E4%B8%80%E9%A2%97%E7%BA%BD%E6%89%A3/</guid>
       <description>&lt;p&gt;先生你好啊！当我提笔时已经是夜里10：30，想着就用30分钟的时间给你写信，纸段情长，想到什么就写些什么出来，思想每念及到处无所拘束，反而多了几分的潇洒快意，少了一些天天想你的惆怅。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>给先生的第二十封信（你的样子）</title>
-      <link>http://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%B0%81%E4%BF%A1%E4%BD%A0%E7%9A%84%E6%A0%B7%E5%AD%90/</link>
+      <link>https://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%B0%81%E4%BF%A1%E4%BD%A0%E7%9A%84%E6%A0%B7%E5%AD%90/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%B0%81%E4%BF%A1%E4%BD%A0%E7%9A%84%E6%A0%B7%E5%AD%90/</guid>
-      <description>先生你好啊！这第二十封信我不想谈及其他，只想谈谈你在我心中会是什么样子。要是我说的让你生气，那都是我的不好，你尽管不要理我。
-也不知道是谁打翻了上帝的沙漏，往日丝丝如缕，不急不缓的时光突然起了波澜。今年尤其是难过的一年，也是婚姻大事被提及次数最多的一年。当然，很可能接下来的2019年又会是一浪高过一浪。这也不全然是糟心的，至少谈得多，思考的次数和深度也就自然增多和加深，是成长过程中很重要的一部分，古语说：“男大当婚，女大当嫁”，亦同此理。先生，哪一天你真的来我家，我妈妈肯定会很喜欢你。你看她老人家，在没有你一星半点儿消息的时候就如此的急切盼望着你的到来，以至于我每次回家，她都三句不离你。每当看到母亲躁急盼望的神情，作为儿子的我内心并不好受，没能让母亲放心如愿心有不安。窗外的云和月依旧恋恋不舍我这一方窗户，而我却念念着你的归期，假如姻缘天定。
-对待婚姻甚至恋爱我们一家人相对比较传统与保守，但又不固步自封，有其进步开明的一面，也有所坚守。爸爸妈妈都是本分的实在人，从小妈妈管我比较多，所以我很多事情都会和妈妈沟通并拿出自己的主意，很开心母亲每次都很支持我的想法。对我的家人我是没有秘密的，因为行而有度，理义为先，用现在的话说就是做事知轻重有分寸，所以我希望先生也是这个样子。
-胡适先生是我最崇拜的人之一，这位新文化的缔造者却是旧文化的楷模。在鲁迅、梁启超等纷纷以提倡新文化为借口打破旧式婚姻的时候，胡适这个海龟博士却遵从了旧时的婚约同目不识丁的女子结成连理。对于国家的文明，胡适说只消考察三件事：第一看他们怎样对待孩子；第二看他们如何对待女人；第三看他们如何利用闲暇时间。我觉得用这三点来评价一个人的文明程度也完全适合，对待孩子和女人的问题经过这么多年思想建设相信已经成了普遍的共识，在此不表。我想谈谈这第三点如何利用闲暇时间。
-学生时代有同学有老师，不住校的时候可以天天回家和爸妈在一起，到了上中学，上大学，住校了和舍友在一起，一个人独处的时候并不多，那时候也不把孤独当做一回事。大学那一会儿一直想做一个很牛的工程师，几度想自己写操作系统，写编译器，年轻的时候有的是敢做梦的勇气，用现在的话说就是：”要么在自学，要么在去图书馆借书自学的路上“。到现在我已经毕业4年3个月21天，因为家在老家红星，所以我就不得以要自己租房子住，坦诚的说，也会很无聊，也会经常焦虑。但是这些都没把我给困住，反而我看书看得更勤快，偶尔也练练字，练练琴，做做家务，傍晚时候坚持去公园走上2-3公里已经成了我3年来的习惯。经历过风雨更知道有把雨伞的可贵，漫漫的人生路上如果能有1-2个爱好作为消遣，养成健康的生活习惯，这样的人生会更有趣一些，自律从某种程度上是自我的认同，认同了自己人生也就更加的自由，灵魂的自由！
-要写的东西还有很多很多，索性不写了，你要是出现了，我再好好说给你听。
-祝君 安好！秋天来了，早晚多添一件衣服。
-慕年 写于2018年10月21日 11时 晚 。侨星大厦宿舍。</description>
+      <guid>https://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%B0%81%E4%BF%A1%E4%BD%A0%E7%9A%84%E6%A0%B7%E5%AD%90/</guid>
+      <description>先生你好啊！这第二十封信我不想谈及其他，只想谈谈你在我心中会是什么样子。要是我说的让你生气，那都是我的不好，你尽管不要理我。 也不知道是谁打翻了上帝的沙漏，往日丝丝如缕，不急不缓的时光突然起了波澜。今年尤其是难过的一年，也是婚姻大事被提及次数最多的一年。当然，很可能接下来的2019</description>
     </item>
     
     <item>
       <title>给先生的第十七封信</title>
-      <link>http://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E5%8D%81%E4%B8%83%E5%B0%81%E4%BF%A1/</link>
+      <link>https://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E5%8D%81%E4%B8%83%E5%B0%81%E4%BF%A1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E5%8D%81%E4%B8%83%E5%B0%81%E4%BF%A1/</guid>
-      <description>先生你好啊！有段时间没给你写信了，也不知道你过得怎么样了呢？我最近感觉不是太好，可能是夏天太热了吧，所以会比较晚睡，多出来的大把时间都用来想你了。你要是早点出现就好了，可以把所有不安和惶恐都告诉你，你的一个眼神和微笑都会是我坚定下去的勇气和动力。我也不用像现在这样想着想着却无人可以说，就越想越糟糕了，唉~这种感觉不知道你会不会也有，你是否也期待着我的出现呢？想到这里，我就感觉自己好坏，我只能在心里默默祈求上天让我们早点遇见，这样你会好受一些，我也好受一些。
-有些时候真的令人左右为难。就比如相亲这件事，你要不托朋友帮忙介绍对象，别人以为你已经有了呢。如果你经常拜托朋友帮忙介绍，别人以为你很急。如果你只是说说几次，别人觉得你可能不认真。所以我每次都大方承认自己很着急，因为我很认真，认真地想和你相遇。
-在说相亲这件事吧，其实也很难。两个人越是有棱角就越是难成一对，你说大家都等了近30年了，也就无所谓在多等几年了，年轻的时候还可能将就，年纪大了些反而觉得单身其实也很好。当然了，这种感觉并不排除是一种错觉，看见别人成双成对，还是会很羡慕。毕竟越挑剔的人可能也是最理想主义的人，把爱情看得高过一切，她有多美好，也就有多苦楚了。
-我向来不敢“诋毁”那些可爱的人们，一个人清楚自己想要什么也总比浑浑噩噩度过一生来的强，大家都在等待那个对的人的出现，希望大家都可以如愿，当然这也包括我，还有的我先生。
-今晚好梦 我的先生！
-慕年 写于2018年07月31日 23:22晚 侨星宿舍</description>
+      <guid>https://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E5%8D%81%E4%B8%83%E5%B0%81%E4%BF%A1/</guid>
+      <description>先生你好啊！有段时间没给你写信了，也不知道你过得怎么样了呢？我最近感觉不是太好，可能是夏天太热了吧，所以会比较晚睡，多出来的大把时间都用来想你了。你要是早点出现就好了，可以把所有不安和惶恐都告诉你，你的一个眼神和微笑都会是我坚定下去的勇气和动力。我也不用像现在这样想着想着却无人可</description>
     </item>
     
     <item>
       <title>给先生的第十九封信（不胜凉风的思念）</title>
-      <link>http://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E5%8D%81%E4%B9%9D%E5%B0%81%E4%BF%A1%E4%B8%8D%E8%83%9C%E5%87%89%E9%A3%8E%E7%9A%84%E6%80%9D%E5%BF%B5/</link>
+      <link>https://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E5%8D%81%E4%B9%9D%E5%B0%81%E4%BF%A1%E4%B8%8D%E8%83%9C%E5%87%89%E9%A3%8E%E7%9A%84%E6%80%9D%E5%BF%B5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E5%8D%81%E4%B9%9D%E5%B0%81%E4%BF%A1%E4%B8%8D%E8%83%9C%E5%87%89%E9%A3%8E%E7%9A%84%E6%80%9D%E5%BF%B5/</guid>
-      <description>想你想得多了，也会不开心的。等得久了会累，经常期待也经常面对着失望，所以在你未曾出现的日子里我习惯于听歌、锻炼、写字、看书、游戏来拉扯我的思绪，不至于太过想你。然而，这一切好像都不具“药效”，当一切停下来之后，深夜月明之时我又不免陷入了更深的思念以至于绝望当中，便纵有千种风情，更与何人说？
-我在6月份的时候看了《苏珊·福沃德心理学经典作品》一书，里面讲心里医生会让咨询者通过用纸笔的方式写下心中的想法，来反观自己，认识自己。现在我明白了，为什么我会想给你写信，为什么每次写完信我会陷入另一种极致的思念之中，而后会更加的坦然。不了解自己就不能很好的直面现实生活的苦恼，而我反而是更了解自己却陷入了一种思念不得的苦恼当中，夜夜思君不见君，但见长江东流水。这当中的滋味你是否也能体会到？所庆幸的是我还怀有一颗纯真的爱你的心，珍藏着怦然心动的感觉，不至于见异思迁，放浪形骸，成为一个麻木的人。
-先生，你知道吗？如果说姻缘是命中注定的，那么从我来到这个世上开始算，为了与你相遇我已经等了26年5个月零1天。时间虽然不长，但也绝对不算短，我身边的好兄弟有恋爱长跑6年的，有张罗着要结婚的，也有婚后忙着生孩子的。时间如流水，而流水却归于平静，一转眼，我就掉队了。我是多么希望能早一点遇见你，假如姻缘是命中注定。
-就写到这里吧！明天我得回家一趟，勿念。祝君安好，晚安。
-慕年作于2018年8月11日0:17凌晨 侨星宿舍</description>
+      <guid>https://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E5%8D%81%E4%B9%9D%E5%B0%81%E4%BF%A1%E4%B8%8D%E8%83%9C%E5%87%89%E9%A3%8E%E7%9A%84%E6%80%9D%E5%BF%B5/</guid>
+      <description>先生你好哇！也不知道你最近过得怎么样，是不是也会想起我呢？我嘛，最近挺好的，只是时常会想起你，有时候想你是甜蜜的，想着我们应该会是幸福的一对，听到一首歌就想起你，想发给你听听。看到书本上很美的文字也想发给你看看，想告诉你今天我吃了啥，干了啥，想得到你的肯定和夸奖，我简直就像个孩子</description>
     </item>
     
     <item>
       <title>给先生的第十八封信（宠物与猫）</title>
-      <link>http://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E5%8D%81%E5%85%AB%E5%B0%81%E4%BF%A1%E5%AE%A0%E7%89%A9%E4%B8%8E%E7%8C%AB/</link>
+      <link>https://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E5%8D%81%E5%85%AB%E5%B0%81%E4%BF%A1%E5%AE%A0%E7%89%A9%E4%B8%8E%E7%8C%AB/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E5%8D%81%E5%85%AB%E5%B0%81%E4%BF%A1%E5%AE%A0%E7%89%A9%E4%B8%8E%E7%8C%AB/</guid>
-      <description>你好啊！先生。我这两天真是中了猫咪的毒，超级喜欢上这一只猫了。哈哈，也许我真的是老了，竟然需要耍猫为乐趣。然而我现在的境况又不适合养这个小宝贝，哪一天碰上我下乡或者出差了，谁会给它挠痒痒，给它喂吃的呢？所以我只是看看不买，看着图片解解馋，想象着我也养了一只橘猫。不要问为什么，我就是戏多啊，它嫌弃的眼神说我又调皮了呢！我的先生，你有没有养过小动物呢？在我十几岁的时候养过鱼和鸟，我差点因为这两样东西成了职业驯养师^_^ 农村的孩子学习压力小，在小学阶段爸妈也都不管学习，所以普遍都比较野。不用上课的时候到河里抓虾摸鱼是常有的事情，也经常大中午满山野里寻鸟窝。一群小伙伴除了我个个都是好手，即便我不会游泳、不会上树，他们也愿意带我一起玩，我只出个人，战利品可都有我的一份，他们可都等着抄我作业呢O(∩_∩)O哈哈~。
-能在沟沟里生长的鱼生命力都比较强，普遍都很好养。用装过糖果的空的透明塑料罐来做鱼缸最合适不过，在罐子里铺上玻璃弹珠和收集的小石头作为装饰，加水放鱼一气呵成，也不用想着给鱼喂食，也都能活个几年。如果鱼儿太多就容易打架，气死的、被打伤打残的情况也经常发生。遇到这种情况，得及时给他们分家。若有死鱼，要立刻把尸体捞出来，更换清水，不然水很容易被污染。
-说起鸟儿，我只养过一只，在他还不会飞翔的时候就英年早逝。我妈妈一直很反对我养鸟，小时候不太懂，对小动物都很好奇也都想养，长大了以后才知道，鸟终究是难以养活的。在他羽翼未丰，那时身上毛都没长多少，光着红屁股就来到了我家。我又不会抓虫子，也是第一次为鸟之父母，心里是又慌又着急啊，看着他伸长脖子张大的嘴，一口冷稀饭就趁机往里送，没想到他一口咽下，吃得还挺欢。我到学校上学，我妈妈就负责照顾他，时间一久，他竟然成了我家第四号人物。可惜那时候环境不好，蚊子虫子很多，眼睛像是被什么东西给哲到，肿了好几天，最后还是没留下来。
-从有记忆开始我家就住在红星中学的教师宿舍里面，学校与山地果园只有一墙之隔，也不知到什么时候开始，学校里就来了很多没人认领的野猫，依靠食堂的剩菜剩饭过活。有一次一只圆脸，灰白色的猫来到我家门口，母亲给它小鱼干吃，谁知道这一吃就经常来我家串门。挺让人省心的一只猫猫，也不用特意给它准备食物，它经常夜里出去外面抓老鼠，饱餐一顿之后在从屋檐下的空挡跳到橱柜，在落到地上。偶尔，也会撒娇讨人喜欢，比如在地上打滚，蹭裤腿和你表示亲密或者直接爬在你脚旁边睡觉。搬了新家以后，它还是老样子夜里要出去寻找猎物，可是新家没有什么洞洞让他自由出入，夜里3点左右觅食回来就在门前喵喵喵的叫唤，母亲就这样天天半夜起来给它开门。就这样过了半年，猫是越来越廋，母亲也觉得天天给它开门不是办法，还是把它送回学校了。3年后，听母亲说回学校遇见了这只猫，它一直追着到校门口送我母亲离开。
-现在学校重新建设，一切已经不是以前的样子，也不知道猫猫过得好不好。
-我这里一切安好，你呢？
-慕年作于2018年8月2日21:50晚 侨星宿舍</description>
+      <guid>https://hqustar.github.io/post/%E7%BB%99%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E5%8D%81%E5%85%AB%E5%B0%81%E4%BF%A1%E5%AE%A0%E7%89%A9%E4%B8%8E%E7%8C%AB/</guid>
+      <description>你好啊！先生。我这两天真是中了猫咪的毒，超级喜欢上这一只猫了。哈哈，也许我真的是老了，竟然需要耍猫为乐趣。然而我现在的境况又不适合养这个小宝贝，哪一天碰上我下乡或者出差了，谁会给它挠痒痒，给它喂吃的呢？所以我只是看看不买，看着图片解解馋，想象着我也养了一只橘猫。不要问为什么，我就</description>
     </item>
     
     <item>
       <title>绝佳的必备软件清单</title>
-      <link>http://hqustar.github.io/post/%E7%BB%9D%E4%BD%B3%E7%9A%84%E5%BF%85%E5%A4%87%E8%BD%AF%E4%BB%B6%E6%B8%85%E5%8D%95/</link>
+      <link>https://hqustar.github.io/post/%E7%BB%9D%E4%BD%B3%E7%9A%84%E5%BF%85%E5%A4%87%E8%BD%AF%E4%BB%B6%E6%B8%85%E5%8D%95/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E7%BB%9D%E4%BD%B3%E7%9A%84%E5%BF%85%E5%A4%87%E8%BD%AF%E4%BB%B6%E6%B8%85%E5%8D%95/</guid>
-      <description>这里将自己平时发现的一些非常有用的软件工具做一个汇总，包括windows ios android三个平台。
-绝佳的必备软件清单 windows 平台 截图和录像软件 【FastStone Capture】 软件卸载 【IObit Uninstaller】 图片查看 【ACDSee】 文件搜索神器 【everything】 远程控制软件 【Teamviewer】 文件管理器 【Total Commander】 快速启动工具 【Launchy】【CLaunch】 广告过滤 【Ad Muncher】 下载工具 【Internet Download Manager】 数据恢复软件 【金山数据恢复】 数学公式编辑器 【MathType】 常用字体包 【monaco】【方正小标宋简体】【仿宋_GB2312】 PDF阅读标注 【PDFXCview2】【福昕阅读器】 PDF文件转换分割（PDF WORD 图片）【pdf shaper】 windows和office激活工具 【KMSpico】 markdown书写 【Typora】【yu-writer】 简易版可用【MarkdownEditor】 鼠标指针美化 【ComixCursors_Blue】 百度文库下载 【冰点下载idocdown】 给控制台加点linux 命令，一个开箱即用的 Windows Shell 【babun】、 iphone 利用屏幕镜像投影到pc 【AirPlayer】 android 软件市场 【酷安】 浏览器 【via】【夸克浏览器】 云盘 【百度云】【坚果云】 文字扫描 【CamScanner】 ios 软件市场 【爱思助手】 剪切板软件 【pin】 软件限免信息 【price tag】 输入法 【gboard】 手机做无线鼠标 【minimouse】电脑也要安装minimouse.</description>
+      <guid>https://hqustar.github.io/post/%E7%BB%9D%E4%BD%B3%E7%9A%84%E5%BF%85%E5%A4%87%E8%BD%AF%E4%BB%B6%E6%B8%85%E5%8D%95/</guid>
+      <description>这里将自己平时发现的一些非常有用的软件工具做一个汇总，包括windows ios android三个平台。 绝佳的必备软件清单 windows 平台 截图和录像软件 【FastStone Capture】 软件卸载 【IObit Uninstaller】 图片查看 【ACDSee】 文件搜索神器 【everything】 远程</description>
     </item>
     
     <item>
       <title>那些独居中的点滴日常</title>
-      <link>http://hqustar.github.io/post/%E9%82%A3%E4%BA%9B%E7%8B%AC%E5%B1%85%E4%B8%AD%E7%9A%84%E7%82%B9%E6%BB%B4%E6%97%A5%E5%B8%B8/</link>
+      <link>https://hqustar.github.io/post/%E9%82%A3%E4%BA%9B%E7%8B%AC%E5%B1%85%E4%B8%AD%E7%9A%84%E7%82%B9%E6%BB%B4%E6%97%A5%E5%B8%B8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hqustar.github.io/post/%E9%82%A3%E4%BA%9B%E7%8B%AC%E5%B1%85%E4%B8%AD%E7%9A%84%E7%82%B9%E6%BB%B4%E6%97%A5%E5%B8%B8/</guid>
-      <description>一个人独居可得一个闲字，就像丰子恺的《闲居》不以之为不幸，反而认为这是情趣上的适快。诚然，在群体生活中最难的就是保存个人的自由不被别人所窥探，独居仿佛在人与人的千丝万缕的混沌中生生开辟出了一块只属于自己的天地，留的住天性与纯真，不必顾虑他人的感受，逢迎他人的喜好。然而，祸福相依，独居固有其乐，也自当有其弊。独居的闲适稍微不留神也就变成了闲愁，观花花不语是愁，春水向东去是愁，人比黄花瘦也是愁，枯藤老树昏鸦是愁，大漠孤烟直是愁，潇潇的落木是愁&amp;hellip;&amp;hellip;唉，要说闲愁最苦，也确有其理。记得去年这个时候，天气也是格外的闷热，每天夜里务必将门和窗都打开给房间通风，风扇一刻也不能停息，待到深夜1点左右，气温稍稍下降才能得以安寝。时间日久，我竟然觉得自己在夏天的时候精力更好，安之若素，处之泰然。可是今年夏天和以往不太一样了，连续的2星期，夜里9点左右我必然犯困，然后沾床就睡，睡也睡不长久，12点左右复醒。过了几小时稍有困意，又复睡去。睡眠被分成了两节，所以乘此间隙写成这篇文章，心中的任何感悟，也许是一句话，也许是一段话，不写出来那就都不复存在，无迹可寻。
-说起独居很自然就想到“宅”，“独居&amp;quot;说的是一个人居住，中性词，一种客观的描述。”宅“指的是一个人不出去活动，选择自己躲在房间里，带有强烈的主观性。独居的人未必就喜欢宅，喜欢宅的人也未必就是独居。因为工作的缘故，我需在县城租房，父母在乡下仍有牵绊，不能与我日日相见，生活一起。我不是一个喜欢宅的人，我喜欢大自然的一切，风、雨、阳光、花草树木对我来说都是别有生机，每一天我都会带着我的小电驴去兜风或者在公园走上几圈，宅不能给人精神慰籍，而自然天生就有这股力量。树荫下晨读，石阶上捧书，鸟语花香同朗朗的书声一起在宣告”我才是大自然里最快乐的精灵“。
-为了打发闲愁，总要找点事情做才是。散步运动方面：傍晚时分，饭前饭后走一走，走完北湖再去走文体操场，一天下来也总有5公里左右，运动量不算大，若能每天坚持下来，运动的效果得到巩固，也就足够了。学习提高方面：这里我必须说一句，并不是所有的东西都可以学以致用，学而无用的东西还少吗？在则，用以活学才能达到活学活用，像我这般看得都是闲书，且还看得飞快，除了与书同欢同悲之外，也没学到啥东西嘛！如果说有，倒是学会了矫情。哈哈，矫情的人儿爱写诗，会开心也会流泪。
-说到吃，有人说这是天底下第一大难题，不亚于媳妇和母亲落水先救谁。工作日吃食堂，刚刚百度了一下，中国有八大菜系 ，如果说食堂的饭菜特点在鲜明一点点，那绝对可以排出九大菜系。好吧，我想说的是食堂饭菜菜色单一，容易吃腻。非工作日在外面吃就自由多啦，每天都可以吃主题料理。以牛为主题就有牛肉、牛肚、牛肉丸；以鸭为主题就有鸭脖子、鸭脯肉、鸭腿、鸭爪；以海鲜为主题就有贝壳、鱼、虾、蟹、软体动物；再搭配不同的时令蔬菜、辛辣酸甜，变幻万千，回味无穷，令人咂舌。好吧，说得我自己都不太相信&amp;hellip;
-这个夏天是独属于吃瓜群众的，我就是这其中的一员。按肤色分西瓜可以分成黑和白两种，按形状分可以分成长和圆两种，所以天下西瓜就有四种。怎么感觉有点怪怪的，突然想到了鲁迅先生笔下的孔乙己说回字有四种写法，那是穿着长衫站着喝酒的唯一一人。说话的当吃瓜群众，怎么就跑题了呢？提个问题强行挽尊，诏安一天要吃掉多少个西瓜呢？
-独居的日子家务并不很多，盗用互联网潮流词语可以说是“轻家务”，洗洗衣服，整理房间也没多少事情。但是呢？莫道昆明池水浅，观鱼胜过富春江。小事情也可以有大作为，于平淡处亦可以见到真志趣，充分挖掘“家务+”的深刻内涵，积极探索“洗衣+音乐”、“整理+音乐”、“家务+锻炼”、“家务+性格养成”等等，成就美好人生。这段有点吹牛。
-很晚啦，收尾（END）。
-附上丰子恺《闲居》原文
-注意：如果有人想将愁写成文章，那一定是假的，我只想吐槽，因为不吐不快乐！</description>
+      <guid>https://hqustar.github.io/post/%E9%82%A3%E4%BA%9B%E7%8B%AC%E5%B1%85%E4%B8%AD%E7%9A%84%E7%82%B9%E6%BB%B4%E6%97%A5%E5%B8%B8/</guid>
+      <description>一个人独居可得一个闲字，就像丰子恺的《闲居》不以之为不幸，反而认为这是情趣上的适快。诚然，在群体生活中最难的就是保存个人的自由不被别人所窥探，独居仿佛在人与人的千丝万缕的混沌中生生开辟出了一块只属于自己的天地，留的住天性与纯真，不必顾虑他人的感受，逢迎他人的喜好。然而，祸福相依，</description>
     </item>
     
   </channel>
