@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CMY RGB on hqustar的博客</title>
+    <link>https://hqustar.github.io/tags/CMY-RGB/</link>
+    <description>Recent content in CMY RGB on hqustar的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 07 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hqustar.github.io/tags/CMY-RGB/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>光和色的关系</title>
+      <link>https://hqustar.github.io/post/ps%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/01%E5%85%89%E5%92%8C%E8%89%B2%E7%9A%84%E5%85%B3%E7%B3%BB/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hqustar.github.io/post/ps%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/01%E5%85%89%E5%92%8C%E8%89%B2%E7%9A%84%E5%85%B3%E7%B3%BB/</guid>
+      <description>色彩属性：色相h、饱和度s、明度b 色相图： 注意观察上图：白色和黑色无色相 光的三元色（发光体）：红绿蓝RGB 红绿蓝分别有256种色值用0-255表示，0表示不发光，255表示发光最大值。加色模式：RGB（255,255,255）表示白色，RGB（0,0,0）表示黑色。RGB三色等值</description>
+    </item>
+    
+  </channel>
+</rss>
